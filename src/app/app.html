@@ -8,16 +8,20 @@
         <ion-list>
 
             <button ion-item menuClose clear (tap)="openPage('LoadingPage')">
-                    <div item-left style="width:10px; float:left"> </div> 
-                    <img style="float:left" width="23" height="23" src="assets/svg/loading.svg" item-left/>     
-                    Loading                
+                <div item-left style="width:10px; float:left"> </div>
+                <img style="float:left" width="23" height="23" src="assets/svg/loading.svg" item-left/> Loading
             </button>
 
             <button ion-item menuClose clear (tap)="openPage('ButtonsPage')">
-                    <div item-left style="width:10px; float:left"> </div> 
-                    <img style="float:left" width="23" height="23" src="assets/svg/press.svg" item-left/>     
-                    Buttons                
+                <div item-left style="width:10px; float:left"> </div>
+                <img style="float:left" width="23" height="23" src="assets/svg/press.svg" item-left/> Buttons
             </button>
+
+            <button ion-item menuClose clear (tap)="openPage('CameraPage')">
+                <div item-left style="width:10px; float:left"> </div>
+                <img style="float:left" width="23" height="23" src="assets/svg/camera.svg" item-left/> Camera
+            </button>
+
         </ion-list>
     </ion-content>
 </ion-menu>

@@ -36,12 +36,20 @@
         "source": "/home/hebert/Aplicativos/ionic-demo/platforms/android/app/src/main/res/xml/config.xml"
     },
     {
+        "merged": "/home/hebert/Aplicativos/ionic-demo/platforms/android/app/build/intermediates/res/merged/debug/xml_provider_paths.xml.flat",
+        "source": "/home/hebert/Aplicativos/ionic-demo/platforms/android/app/src/main/res/xml/provider_paths.xml"
+    },
+    {
         "merged": "/home/hebert/Aplicativos/ionic-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-xxhdpi_screen.png.flat",
         "source": "/home/hebert/Aplicativos/ionic-demo/platforms/android/app/src/main/res/drawable-land-xxhdpi/screen.png"
     },
     {
         "merged": "/home/hebert/Aplicativos/ionic-demo/platforms/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_icon.png.flat",
         "source": "/home/hebert/Aplicativos/ionic-demo/platforms/android/app/src/main/res/mipmap-xxhdpi/icon.png"
+    },
+    {
+        "merged": "/home/hebert/Aplicativos/ionic-demo/platforms/android/app/build/intermediates/res/merged/debug/xml_sharing_paths.xml.flat",
+        "source": "/home/hebert/Aplicativos/ionic-demo/platforms/android/app/src/main/res/xml/sharing_paths.xml"
     },
     {
         "merged": "/home/hebert/Aplicativos/ionic-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-xxhdpi_screen.png.flat",

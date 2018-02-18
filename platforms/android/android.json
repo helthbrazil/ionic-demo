@@ -27,6 +27,14 @@
             {
               "xml": "<feature name=\"StatusBar\"><param name=\"android-package\" value=\"org.apache.cordova.statusbar.StatusBar\" /><param name=\"onload\" value=\"true\" /></feature>",
               "count": 1
+            },
+            {
+              "xml": "<feature name=\"Camera\"><param name=\"android-package\" value=\"org.apache.cordova.camera.CameraLauncher\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"SocialSharing\"><param name=\"android-package\" value=\"nl.xservices.plugins.SocialSharing\" /></feature>",
+              "count": 1
             }
           ]
         }
@@ -36,6 +44,34 @@
           "/*": [
             {
               "xml": "<feature name=\"Keyboard\"><param name=\"android-package\" onload=\"true\" value=\"io.ionic.keyboard.IonicKeyboard\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "AndroidManifest.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
+              "count": 2
+            }
+          ],
+          "application": [
+            {
+              "xml": "<provider android:authorities=\"${applicationId}.provider\" android:exported=\"false\" android:grantUriPermissions=\"true\" android:name=\"android.support.v4.content.FileProvider\"><meta-data android:name=\"android.support.FILE_PROVIDER_PATHS\" android:resource=\"@xml/provider_paths\" /></provider>",
+              "count": 1
+            }
+          ],
+          "/manifest/application": [
+            {
+              "xml": "<provider android:authorities=\"${applicationId}.sharing.provider\" android:exported=\"false\" android:grantUriPermissions=\"true\" android:name=\"nl.xservices.plugins.FileProvider\"><meta-data android:name=\"android.support.FILE_PROVIDER_PATHS\" android:resource=\"@xml/sharing_paths\" /></provider>",
+              "count": 1
+            }
+          ],
+          "/manifest": [
+            {
+              "xml": "<uses-permission android:name=\"android.permission.VIBRATE\" />",
               "count": 1
             }
           ]
@@ -63,6 +99,18 @@
       "PACKAGE_NAME": "br.com.ionicDemo"
     },
     "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "br.com.ionicDemo"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "br.com.ionicDemo"
+    },
+    "es6-promise-plugin": {
+      "PACKAGE_NAME": "br.com.ionicDemo"
+    },
+    "cordova-plugin-x-socialsharing": {
+      "PACKAGE_NAME": "br.com.ionicDemo"
+    },
+    "cordova-plugin-vibration": {
       "PACKAGE_NAME": "br.com.ionicDemo"
     }
   },
@@ -107,6 +155,52 @@
       "clobbers": [
         "window.StatusBar"
       ]
+    },
+    {
+      "id": "cordova-plugin-camera.Camera",
+      "file": "plugins/cordova-plugin-camera/www/CameraConstants.js",
+      "pluginId": "cordova-plugin-camera",
+      "clobbers": [
+        "Camera"
+      ]
+    },
+    {
+      "id": "cordova-plugin-camera.CameraPopoverOptions",
+      "file": "plugins/cordova-plugin-camera/www/CameraPopoverOptions.js",
+      "pluginId": "cordova-plugin-camera",
+      "clobbers": [
+        "CameraPopoverOptions"
+      ]
+    },
+    {
+      "id": "cordova-plugin-camera.camera",
+      "file": "plugins/cordova-plugin-camera/www/Camera.js",
+      "pluginId": "cordova-plugin-camera",
+      "clobbers": [
+        "navigator.camera"
+      ]
+    },
+    {
+      "id": "cordova-plugin-camera.CameraPopoverHandle",
+      "file": "plugins/cordova-plugin-camera/www/CameraPopoverHandle.js",
+      "pluginId": "cordova-plugin-camera",
+      "clobbers": [
+        "CameraPopoverHandle"
+      ]
+    },
+    {
+      "id": "es6-promise-plugin.Promise",
+      "file": "plugins/es6-promise-plugin/www/promise.js",
+      "pluginId": "es6-promise-plugin",
+      "runs": true
+    },
+    {
+      "id": "cordova-plugin-x-socialsharing.SocialSharing",
+      "file": "plugins/cordova-plugin-x-socialsharing/www/SocialSharing.js",
+      "pluginId": "cordova-plugin-x-socialsharing",
+      "clobbers": [
+        "window.plugins.socialsharing"
+      ]
     }
   ],
   "plugin_metadata": {
@@ -116,6 +210,10 @@
     "cordova-plugin-ionic-webview": "1.1.16",
     "cordova-plugin-ionic-keyboard": "2.0.5",
     "cordova-plugin-headercolor": "1.0",
-    "cordova-plugin-statusbar": "2.4.1"
+    "cordova-plugin-statusbar": "2.4.1",
+    "cordova-plugin-camera": "4.0.2",
+    "es6-promise-plugin": "4.1.0",
+    "cordova-plugin-x-socialsharing": "5.2.1",
+    "cordova-plugin-vibration": "3.0.1"
   }
 }

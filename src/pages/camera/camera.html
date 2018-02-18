@@ -1,0 +1,25 @@
+<ion-header>
+    <ion-navbar color="primary">
+      <button ion-button menuToggle icon-only>
+        <ion-icon name='menu'></ion-icon>
+      </button>
+      <ion-title>
+        Camera
+      </ion-title>
+  
+      <ion-buttons end>
+        <button (tap)="showInfo()" ion-button icon-only>
+          <ion-icon name="md-information-circle"></ion-icon>
+        </button>
+      </ion-buttons>
+  
+    </ion-navbar>
+  </ion-header>
+
+
+<ion-content padding>
+  <button ion-button class="botao" (tap)="getPicture()" block>get picture</button>
+  <div padding></div>
+  <img (press)="pressEvent($event)" src="{{base64Image}}" alt="">
+
+</ion-content>
