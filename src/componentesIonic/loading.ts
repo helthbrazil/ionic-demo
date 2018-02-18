@@ -5,9 +5,9 @@ import 'rxjs/add/operator/map';
 
 @Injectable()
 export class Loading {
-    public response: string;
-    public static loader: any;
-    public static loadingCtrl: LoadingController;
+    private response: string;
+    private loader: any;
+    private loadingCtrl: LoadingController;
 
     // CONSTANTES DOS TIPOS
     static readonly DEFAULT = 'default';
@@ -18,7 +18,7 @@ export class Loading {
     static readonly CRESCENT = 'crescent';
 
     constructor(loading: LoadingController) {
-        Loading.loadingCtrl = loading;
+        this.loadingCtrl = loading;
     }
 
     /**
@@ -30,39 +30,25 @@ export class Loading {
      * @param tipoLoading
      * @param conteudo
      * */
-    static showLoading(mensagem: string, tipoLoading: string, conteudo: string) {
-        if (conteudo) {
-            this.loader = this.loadingCtrl.create({
-                content: conteudo,
-                dismissOnPageChange: true,
-                spinner: tipoLoading
-            });
-            this.loader.present();
-        } else {
-            this.loader = this.loadingCtrl.create({
-                content: mensagem,
-                dismissOnPageChange: true,
-                spinner: tipoLoading
-            });
-            this.loader.present();
-        }
-        /*
-                // COMENTAR QUANDO TESTADO
-                setTimeout(() => {
-                    this.dismissLoading();
-                }, 3000);*/
-    }
+    showLoading(mensagem: string, tipoLoading: string) {
 
+        this.loader = this.loadingCtrl.create({
+            content: mensagem,
+            dismissOnPageChange: true,
+            spinner: tipoLoading
+        });
+        this.loader.present();
+    }
     /**
      * método responsável por fechar uma tela de loading
      * */
-    static dismissLoading() {
+    dismissLoading() {
         if (this.loader) {
             this.loader.dismiss();
         }
     }
 
-    static presentLoadingCustom() {
+    presentLoadingCustom() {
         let loading = this.loadingCtrl.create({
             spinner: 'hide',
             content: `            

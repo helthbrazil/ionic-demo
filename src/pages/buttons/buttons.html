@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <button ion-button menuToggle icon-only>
+      <ion-icon name='menu'></ion-icon>
+    </button>
+    <ion-title>
+      Buttons
+    </ion-title>
+
+    <ion-buttons end>
+      <button (tap)="showInfo()" ion-button icon-only>
+        <ion-icon name="md-information-circle"></ion-icon>
+      </button>
+    </ion-buttons>
+
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div padding>
+    <button ion-button color="primary" outline> Outline</button>
+    <button ion-button color="primary" clear> Clear</button>
+    <button ion-button color="primary" round> Round</button>
+    <button ion-button> Button</button>
+    <button ion-button block>Block Button</button>
+  </div>
+  <button ion-button full>Block Button</button>
+
+  <div padding>
+    <button ion-button icon-left>
+      <ion-icon name="home"></ion-icon>
+      Left Icon
+    </button>
+
+    <!-- Only icon (no text) -->
+    <button ion-button icon-only>
+      <ion-icon name="home"></ion-icon>
+    </button>
+
+    <button ion-button class="botao" > Custom 1</button>
+  </div>
+</ion-content>
