@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { Loading } from '../../componentesIonic/loading';
 import { Alertas } from '../../componentesIonic/alertas';
+import { TranslateService } from 'ng2-translate';
 
 @IonicPage()
 @Component({
@@ -11,7 +12,7 @@ import { Alertas } from '../../componentesIonic/alertas';
 export class LoadingPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams,
-    private loading: Loading, private alert: Alertas) {
+    private loading: Loading, private alert: Alertas, private translate: TranslateService) {
   }
 
   ionViewDidLoad() {
@@ -21,10 +22,12 @@ export class LoadingPage {
   showLoading(type: number) {
     switch (type) {
       case 1:
+        this.translate.use('pt');
         this.loading.showLoading("IOS Loading (3 seconds)", Loading.IOS);
         break;
 
       case 2:
+        this.translate.use('en');
         this.loading.showLoading("Android Loading (3 seconds)", Loading.CRESCENT);
         break;
 

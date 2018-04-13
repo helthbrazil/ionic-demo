@@ -5,6 +5,7 @@ import { ActionSheetController } from 'ionic-angular';
 import { SocialSharingService } from '../../services/socialSharing';
 import { Vibration } from '@ionic-native/vibration';
 import { Alertas } from '../../componentesIonic/alertas';
+import { TranslateService } from 'ng2-translate';
 
 
 @IonicPage()
@@ -19,7 +20,7 @@ export class CameraPage {
   constructor(public navCtrl: NavController, public navParams: NavParams,
     private nativeCamera: NativeCamera, public actionSheetCtrl: ActionSheetController,
     private socialSharingService: SocialSharingService, public vibration: Vibration,
-    private alert: Alertas) {
+    private alert: Alertas, private translate: TranslateService) {
   }
 
   ionViewDidLoad() {
@@ -74,7 +75,9 @@ export class CameraPage {
   }
 
   showInfo() {
-    this.alert.simpleAlert("Camera", "After you get picture hold the image for open the action sheet, you can share the picture via Facebook, Instagram and WhatsApp");
+    this.translate.get("cameraInfo").subscribe(translate => {
+      this.alert.simpleAlert("Camera", translate);
+    });
   }
 
 }

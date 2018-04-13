@@ -1,1 +1,625 @@
-webpackJsonp([3],{119:function(n,a,l){"use strict";l.d(a,"a",function(){return e});l(3),l(42);var t=l(95),e=(l.n(t),function(){function n(n){this.alertCtrl=n}return n.prototype.simpleAlert=function(n,a){this.alertCtrl.create({title:n,subTitle:a,cssClass:"overflow-y: auto;",buttons:["OK"]}).present()},n.prototype.teste=function(){},n.prototype.promptAlert=function(n,a,l,t,e,o,u){this.alertCtrl.create({title:n,message:l,inputs:[{name:t,placeholder:e,type:a}],buttons:[{text:"Cancelar",handler:function(n){u(n,!1),console.log("Botão Cancelar clicado")}},{text:o,handler:function(n){u(n,!0),console.log("Botão salvar clicado")}}]}).present()},n.prototype.confirmationAlert=function(n,a,l,t,e){this.alertCtrl.create({title:n,message:a,buttons:[{text:l,handler:function(n){e({response:"Disagree",cod:0})}},{text:t,handler:function(n){e({response:"Agree",cod:1})}}]}).present()},n.prototype.radioAlert=function(n,a,l){var t=this,e=this.alertCtrl.create();e.setTitle(n),a.sort();for(var o=a.length,u=0;u<o;u++)e.addInput({type:"radio",label:a[u].label,value:a[u].value,checked:!1});e.addButton("Cancelar"),e.addButton({text:"OK",handler:function(n){t.testRadioOpen=!1,l({codigo:n})}}),e.present().then(function(){t.testRadioOpen=!0})},n.prototype.checkBoxAlert=function(n,a,l){var t=this,e=this.alertCtrl.create({cssClass:".alert-ios .alert-radio-label{ white-space: pre-line;} .alert-md .alert-radio-label{ white-space: pre-line;} .alert-wp .alert-radio-label{ white-space: pre-line;}"});e.setTitle(n),a.sort();for(var o=a.length,u=0;u<o;u++)e.addInput({type:"checkbox",label:a[u].label,value:a[u].value,checked:!1});e.addButton("Cancelar"),e.addButton({text:"OK",handler:function(n){t.testRadioOpen=!1,l(n)}}),e.present().then(function(){t.testRadioOpen=!0})},n}())},123:function(n,a,l){"use strict";l.d(a,"a",function(){return t});l(3),l(117);var t=function(){function n(n){this.camera=n,this.options={quality:100,destinationType:this.camera.DestinationType.DATA_URL,encodingType:this.camera.EncodingType.JPEG,mediaType:this.camera.MediaType.PICTURE,allowEdit:!0,correctOrientation:!0}}return n.prototype.getPicture=function(n,a){this.camera.getPicture(this.options).then(function(a){n("data:image/jpeg;base64,"+a)},function(n){a(n)})},n}()},124:function(n,a,l){"use strict";l.d(a,"a",function(){return o});var t=l(118),e=l(0);Object(e.n)();var o=function(){function n(n){this.socialSharing=n}return Object.defineProperty(n,"parameters",{get:function(){return[[t.a]]},enumerable:!0,configurable:!0}),n.prototype.shareViaFacebook=function(n,a,l){this.socialSharing.shareViaFacebook(n,a,l)},n.prototype.shareViaInstagram=function(n,a){this.socialSharing.shareViaInstagram(n,a)},n.prototype.shareViaWhatsApp=function(n,a,l){this.socialSharing.shareViaWhatsApp(n,a,l)},n}()},126:function(n,a,l){"use strict";l.d(a,"a",function(){return e});l(3),l(42);var t=l(95),e=(l.n(t),function(){function n(n){this.loadingCtrl=n}return n.prototype.showLoading=function(n,a){this.loader=this.loadingCtrl.create({content:n,dismissOnPageChange:!0,spinner:a}),this.loader.present()},n.prototype.dismissLoading=function(){this.loader&&this.loader.dismiss()},n.prototype.presentLoadingCustom=function(){this.loadingCtrl.create({spinner:"hide",content:'            \n      <div class="custom-spinner-container">\n        <div class="custom-spinner-box">        \n         <img style="margin-top: 10px; display: block; margin: 0 auto;"  width="130" height="65" src="assets/svg/logo_intergado_animado.svg" />\n        </div>\n        <ion-label text-capitalize style="display: flex; margin: auto" color="primary">processando</ion-label>\n      </div>',duration:5e3}).present()},n.DEFAULT="default",n.IOS="ios",n.DOTS="dots",n.BUBBLES="bubbles",n.CIRCLES="circles",n.CRESCENT="crescent",n}())},137:function(n,a){function l(n){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+n+"'.")})}l.keys=function(){return[]},l.resolve=l,n.exports=l,l.id=137},169:function(n,a,l){function t(n){var a=e[n];return a?l.e(a[1]).then(function(){return l(a[0])}):Promise.reject(new Error("Cannot find module '"+n+"'."))}var e={"../pages/buttons/buttons.module.ngfactory":[243,2],"../pages/camera/camera.module.ngfactory":[244,1],"../pages/loading/loading.module.ngfactory":[245,0]};t.keys=function(){return Object.keys(e)},t.id=169,n.exports=t},206:function(n,a,l){"use strict";function t(n){return o._20(0,[(n()(),o._0(0,0,null,null,67,"ion-menu",[["role","navigation"]],null,null,null,O.b,O.a)),o._16(6144,null,x.a,null,[L.a]),o.Z(2,245760,null,2,L.a,[Z.a,o.j,E.a,S.a,o.A,M.a,R.l,D.a,I.a],{content:[0,"content"]},null),o._17(335544320,1,{menuContent:0}),o._17(335544320,2,{menuNav:0}),(n()(),o._19(-1,0,["\n    "])),(n()(),o._0(6,0,null,0,10,"ion-header",[],null,null,null,null,null)),o.Z(7,16384,null,0,F.a,[E.a,o.j,o.A,[2,H.a]],null,null),(n()(),o._19(-1,null,["\n        "])),(n()(),o._0(9,0,null,null,6,"ion-toolbar",[["class","toolbar"],["color","primary"]],[[2,"statusbar-padding",null]],null,null,N.b,N.a)),o.Z(10,49152,null,0,V.a,[E.a,o.j,o.A],{color:[0,"color"]},null),(n()(),o._19(-1,3,["\n            "])),(n()(),o._0(12,0,null,3,2,"ion-title",[],null,null,null,U.b,U.a)),o.Z(13,49152,null,0,q.a,[E.a,o.j,o.A,[2,V.a],[2,W.a]],null,null),(n()(),o._19(-1,0,["Menu"])),(n()(),o._19(-1,3,["\n        "])),(n()(),o._19(-1,null,["\n    "])),(n()(),o._19(-1,0,["\n    "])),(n()(),o._0(18,0,null,0,48,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,K.b,K.a)),o.Z(19,4374528,[[1,4]],0,J.a,[E.a,S.a,D.a,o.j,o.A,I.a,M.a,o.v,[2,H.a],[2,z.a]],null,null),(n()(),o._19(-1,1,["\n        "])),(n()(),o._0(21,0,null,1,44,"ion-list",[],null,null,null,null,null)),o.Z(22,16384,null,0,G.a,[E.a,o.j,o.A,S.a,R.l,D.a],null,null),(n()(),o._19(-1,null,["\n\n            "])),(n()(),o._0(24,0,null,null,12,"button",[["class","item item-block"],["clear",""],["ion-item",""],["menuClose",""]],null,[[null,"tap"],[null,"click"]],function(n,a,l){var t=!0,e=n.component;if("click"===a){t=!1!==o._14(n,30).close()&&t}if("tap"===a){t=!1!==e.openPage("LoadingPage")&&t}return t},X.b,X.a)),o.Z(25,1097728,null,3,Y.a,[Q.a,E.a,o.j,o.A,[2,$.a]],null,null),o._17(335544320,3,{contentLabel:0}),o._17(603979776,4,{_buttons:1}),o._17(603979776,5,{_icons:1}),o.Z(29,16384,null,0,nn.a,[],null,null),o.Z(30,16384,null,0,an.a,[Z.a],{menuClose:[0,"menuClose"]},null),(n()(),o._19(-1,2,["\n                "])),(n()(),o._0(32,0,null,0,1,"div",[["item-left",""],["style","width:10px; float:left"]],null,null,null,null,null)),(n()(),o._19(-1,null,[" "])),(n()(),o._19(-1,2,["\n                "])),(n()(),o._0(35,0,null,0,0,"img",[["height","23"],["item-left",""],["src","assets/svg/loading.svg"],["style","float:left"],["width","23"]],null,null,null,null,null)),(n()(),o._19(-1,2,[" Loading\n            "])),(n()(),o._19(-1,null,["\n\n            "])),(n()(),o._0(38,0,null,null,12,"button",[["class","item item-block"],["clear",""],["ion-item",""],["menuClose",""]],null,[[null,"tap"],[null,"click"]],function(n,a,l){var t=!0,e=n.component;if("click"===a){t=!1!==o._14(n,44).close()&&t}if("tap"===a){t=!1!==e.openPage("ButtonsPage")&&t}return t},X.b,X.a)),o.Z(39,1097728,null,3,Y.a,[Q.a,E.a,o.j,o.A,[2,$.a]],null,null),o._17(335544320,6,{contentLabel:0}),o._17(603979776,7,{_buttons:1}),o._17(603979776,8,{_icons:1}),o.Z(43,16384,null,0,nn.a,[],null,null),o.Z(44,16384,null,0,an.a,[Z.a],{menuClose:[0,"menuClose"]},null),(n()(),o._19(-1,2,["\n                "])),(n()(),o._0(46,0,null,0,1,"div",[["item-left",""],["style","width:10px; float:left"]],null,null,null,null,null)),(n()(),o._19(-1,null,[" "])),(n()(),o._19(-1,2,["\n                "])),(n()(),o._0(49,0,null,0,0,"img",[["height","23"],["item-left",""],["src","assets/svg/press.svg"],["style","float:left"],["width","23"]],null,null,null,null,null)),(n()(),o._19(-1,2,[" Buttons\n            "])),(n()(),o._19(-1,null,["\n\n            "])),(n()(),o._0(52,0,null,null,12,"button",[["class","item item-block"],["clear",""],["ion-item",""],["menuClose",""]],null,[[null,"tap"],[null,"click"]],function(n,a,l){var t=!0,e=n.component;if("click"===a){t=!1!==o._14(n,58).close()&&t}if("tap"===a){t=!1!==e.openPage("CameraPage")&&t}return t},X.b,X.a)),o.Z(53,1097728,null,3,Y.a,[Q.a,E.a,o.j,o.A,[2,$.a]],null,null),o._17(335544320,9,{contentLabel:0}),o._17(603979776,10,{_buttons:1}),o._17(603979776,11,{_icons:1}),o.Z(57,16384,null,0,nn.a,[],null,null),o.Z(58,16384,null,0,an.a,[Z.a],{menuClose:[0,"menuClose"]},null),(n()(),o._19(-1,2,["\n                "])),(n()(),o._0(60,0,null,0,1,"div",[["item-left",""],["style","width:10px; float:left"]],null,null,null,null,null)),(n()(),o._19(-1,null,[" "])),(n()(),o._19(-1,2,["\n                "])),(n()(),o._0(63,0,null,0,0,"img",[["height","23"],["item-left",""],["src","assets/svg/camera.svg"],["style","float:left"],["width","23"]],null,null,null,null,null)),(n()(),o._19(-1,2,[" Camera\n            "])),(n()(),o._19(-1,null,["\n\n        "])),(n()(),o._19(-1,1,["\n    "])),(n()(),o._19(-1,0,["\n"])),(n()(),o._19(-1,null,["\n\n"])),(n()(),o._0(69,0,null,null,2,"ion-nav",[["id","nav"]],null,null,null,ln.b,ln.a)),o._16(6144,null,x.a,null,[tn.a]),o.Z(71,4374528,[["content",4]],0,tn.a,[[2,H.a],[2,z.a],I.a,E.a,S.a,o.j,o.v,o.A,o.i,R.l,en.a,[2,on.a],D.a,o.k],{root:[0,"root"]},null)],function(n,a){var l=a.component;n(a,2,0,o._14(a,71));n(a,10,0,"primary");n(a,30,0,"");n(a,44,0,"");n(a,58,0,"");n(a,71,0,l.rootPage)},function(n,a){n(a,9,0,o._14(a,10)._sbPadding);n(a,18,0,o._14(a,19).statusbarPadding,o._14(a,19)._hasRefresher)})}Object.defineProperty(a,"__esModule",{value:!0});var e=l(34),o=l(0),u=(l(3),l(42),l(73)),i=l(74),r=l(75),s=l(125),c=function(){function n(n,a,l,t){var e=this;this.statusBar=a,this.headerColor=t,this.rootPage="LoadingPage",n.ready().then(function(){a.styleDefault(),e.statusBar.styleLightContent(),e.statusBar.backgroundColorByHexString("#006666"),l.hide(),e.headerColor.tint("#008B8B")})}return n.prototype.openPage=function(n){this.rootPage=n},n}(),_=(l(95),function(){function n(n){this.toastCtrl=n}return n.prototype.showToast=function(n,a,l){var t=this.toastCtrl.create({message:n,duration:l,position:a});t.present(t)},n.prototype.showToastWithConfirmation=function(n,a,l){var t=this.toastCtrl.create({message:n,position:a,showCloseButton:!0,closeButtonText:l});t.present(t)},n.BOTTOM="bottom",n.TOP="top",n.MIDDLE="middle",n}()),d=l(126),p=l(119),f=l(123),g=l(117),h=l(124),m=l(118),b=function(){return function(){}}(),y=l(47),v=l(195),C=l(196),k=l(197),P=l(198),w=l(199),B=l(200),j=l(201),A=l(202),T=l(203),O=l(240),x=l(31),L=l(66),Z=l(22),E=l(1),S=l(4),M=l(24),R=l(7),D=l(9),I=l(8),F=l(76),H=l(5),N=l(241),V=l(33),U=l(204),q=l(55),W=l(32),K=l(205),J=l(21),z=l(19),G=l(52),X=l(171),Y=l(17),Q=l(15),$=l(40),nn=l(63),an=l(93),ln=l(242),tn=l(53),en=l(28),on=l(14),un=o.Y({encapsulation:2,styles:[],data:{}}),rn=o.W("ng-component",c,function(n){return o._20(0,[(n()(),o._0(0,0,null,null,1,"ng-component",[],null,null,null,t,un)),o.Z(1,49152,null,0,c,[S.a,i.a,u.a,r.a],null,null)],null,null)},{},{},[]),sn=l(13),cn=l(97),_n=l(18),dn=l(77),pn=l(87),fn=l(96),gn=l(30),hn=l(92),mn=l(122),bn=l(49),yn=l(37),vn=l(101),Cn=l(60),kn=l(105),Pn=l(99),wn=l(113),Bn=l(194),jn=l(98),An=l(94),Tn=l(100),On=o.X(b,[y.b],function(n){return o._11([o._12(512,o.i,o.T,[[8,[v.a,C.a,k.a,P.a,w.a,B.a,j.a,A.a,T.a,rn]],[3,o.i],o.t]),o._12(5120,o.s,o._10,[[3,o.s]]),o._12(4608,sn.k,sn.j,[o.s,[2,sn.s]]),o._12(5120,o.b,o._1,[]),o._12(5120,o.q,o._7,[]),o._12(5120,o.r,o._8,[]),o._12(4608,e.c,e.q,[sn.c]),o._12(6144,o.E,null,[e.c]),o._12(4608,e.f,cn.a,[]),o._12(5120,e.d,function(n,a,l,t,o){return[new e.k(n,a),new e.o(l),new e.n(t,o)]},[sn.c,o.v,sn.c,sn.c,e.f]),o._12(4608,e.e,e.e,[e.d,o.v]),o._12(135680,e.m,e.m,[sn.c]),o._12(4608,e.l,e.l,[e.e,e.m]),o._12(6144,o.C,null,[e.l]),o._12(6144,e.p,null,[e.m]),o._12(4608,o.H,o.H,[o.v]),o._12(4608,e.h,e.h,[sn.c]),o._12(4608,e.i,e.i,[sn.c]),o._12(4608,_n.k,_n.k,[]),o._12(4608,_n.c,_n.c,[]),o._12(4608,dn.a,dn.a,[I.a,E.a]),o._12(4608,pn.a,pn.a,[I.a,E.a]),o._12(4608,fn.a,fn.a,[]),o._12(4608,Q.a,Q.a,[]),o._12(4608,gn.a,gn.a,[S.a]),o._12(4608,M.a,M.a,[E.a,S.a,o.v,D.a]),o._12(4608,hn.a,hn.a,[I.a,E.a]),o._12(5120,sn.f,mn.c,[sn.q,[2,sn.a],E.a]),o._12(4608,sn.e,sn.e,[sn.f]),o._12(5120,bn.b,bn.d,[I.a,bn.a]),o._12(5120,on.a,on.b,[I.a,bn.b,sn.e,yn.b,o.i]),o._12(4608,vn.a,vn.a,[I.a,E.a,on.a]),o._12(4608,Cn.a,Cn.a,[I.a,E.a]),o._12(4608,kn.a,kn.a,[I.a,E.a,on.a]),o._12(4608,Pn.a,Pn.a,[E.a,S.a,D.a,I.a,R.l]),o._12(4608,wn.a,wn.a,[I.a,E.a]),o._12(4608,en.a,en.a,[S.a,E.a]),o._12(4608,i.a,i.a,[]),o._12(4608,u.a,u.a,[]),o._12(4608,m.a,m.a,[]),o._12(4608,_,_,[wn.a]),o._12(4608,d.a,d.a,[hn.a]),o._12(4608,p.a,p.a,[pn.a]),o._12(4608,r.a,r.a,[]),o._12(4608,g.a,g.a,[]),o._12(4608,f.a,f.a,[g.a]),o._12(4608,h.a,h.a,[m.a]),o._12(4608,s.a,s.a,[]),o._12(512,sn.b,sn.b,[]),o._12(512,o.k,Bn.a,[]),o._12(256,E.b,{},[]),o._12(1024,jn.a,jn.b,[]),o._12(1024,S.a,S.b,[e.b,jn.a,o.v]),o._12(1024,E.a,E.c,[E.b,S.a]),o._12(512,D.a,D.a,[S.a]),o._12(512,Z.a,Z.a,[]),o._12(512,I.a,I.a,[E.a,S.a,[2,Z.a]]),o._12(512,R.l,R.l,[I.a]),o._12(256,bn.a,{links:[{loadChildren:"../pages/buttons/buttons.module.ngfactory#ButtonsPageModuleNgFactory",name:"ButtonsPage",segment:"buttons",priority:"low",defaultHistory:[]},{loadChildren:"../pages/camera/camera.module.ngfactory#CameraPageModuleNgFactory",name:"CameraPage",segment:"camera",priority:"low",defaultHistory:[]},{loadChildren:"../pages/loading/loading.module.ngfactory#LoadingPageModuleNgFactory",name:"LoadingPage",segment:"loading",priority:"low",defaultHistory:[]}]},[]),o._12(512,o.h,o.h,[]),o._12(512,An.a,An.a,[o.h]),o._12(1024,yn.b,yn.c,[An.a,o.p]),o._12(1024,o.c,function(n,a,l,t,o,u,i,r,s,c,_,d,p){return[e.s(n),Tn.a(a),fn.b(l,t),Pn.b(o,u,i,r,s),yn.d(c,_,d,p)]},[[2,o.u],E.a,S.a,D.a,E.a,S.a,D.a,I.a,R.l,E.a,bn.a,yn.b,o.v]),o._12(512,o.d,o.d,[[2,o.c]]),o._12(131584,o.f,o.f,[o.v,o.U,o.p,o.k,o.i,o.d]),o._12(512,o.e,o.e,[o.f]),o._12(512,e.a,e.a,[[3,e.a]]),o._12(512,_n.j,_n.j,[]),o._12(512,_n.d,_n.d,[]),o._12(512,_n.i,_n.i,[]),o._12(512,mn.a,mn.a,[]),o._12(512,b,b,[]),o._12(256,y.a,c,[]),o._12(256,sn.a,"/",[])])});Object(o.N)(),Object(e.j)().bootstrapModuleFactory(On)}},[206]);
+webpackJsonp([4],{
+
+/***/ 119:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 119;
+
+/***/ }),
+
+/***/ 161:
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"../pages/buttons/buttons.module": [
+		302,
+		3
+	],
+	"../pages/camera/camera.module": [
+		303,
+		2
+	],
+	"../pages/config/config.module": [
+		304,
+		1
+	],
+	"../pages/loading/loading.module": [
+		305,
+		0
+	]
+};
+function webpackAsyncContext(req) {
+	var ids = map[req];
+	if(!ids)
+		return Promise.reject(new Error("Cannot find module '" + req + "'."));
+	return __webpack_require__.e(ids[1]).then(function() {
+		return __webpack_require__(ids[0]);
+	});
+};
+webpackAsyncContext.keys = function webpackAsyncContextKeys() {
+	return Object.keys(map);
+};
+webpackAsyncContext.id = 161;
+module.exports = webpackAsyncContext;
+
+/***/ }),
+
+/***/ 211:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Alertas; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var Alertas = (function () {
+    function Alertas(alertCtrl) {
+        this.alertCtrl = alertCtrl;
+    }
+    /**
+     * Método responsável por abrir uma tela simples de alerta
+     * */
+    Alertas.prototype.simpleAlert = function (titulo, subtitulo) {
+        var alert = this.alertCtrl.create({
+            title: titulo,
+            subTitle: subtitulo,
+            cssClass: "overflow-y: auto;",
+            buttons: ['OK']
+        });
+        alert.present();
+    };
+    Alertas.prototype.teste = function () {
+    };
+    /**
+     * Método responsável por abrir uma tela de prompt
+     * */
+    Alertas.prototype.promptAlert = function (titulo, type, mensagem, atributo, placeholderInput, acaoString, callback) {
+        var prompt = this.alertCtrl.create({
+            title: titulo,
+            message: mensagem,
+            inputs: [
+                {
+                    name: atributo,
+                    placeholder: placeholderInput,
+                    type: type
+                },
+            ],
+            buttons: [
+                {
+                    text: 'Cancelar',
+                    handler: function (data) {
+                        callback(data, false);
+                        console.log('Botão Cancelar clicado');
+                    }
+                },
+                {
+                    text: acaoString,
+                    handler: function (data) {
+                        data.cod == 1;
+                        callback(data, true);
+                        console.log('Botão salvar clicado');
+                    }
+                }
+            ]
+        });
+        prompt.present();
+    };
+    /**
+     * Método responsável por abrir uma tela de confirmação na tela.
+     * Resposta do callback
+     * */
+    Alertas.prototype.confirmationAlert = function (titulo, mensagem, textoBotaoDisagree, textoBotaoAgree, callback) {
+        var confirm = this.alertCtrl.create({
+            title: titulo,
+            message: mensagem,
+            buttons: [
+                {
+                    text: textoBotaoDisagree,
+                    handler: function (data) {
+                        callback({ response: "Disagree", cod: 0 });
+                    }
+                },
+                {
+                    text: textoBotaoAgree,
+                    handler: function (data) {
+                        callback({ response: "Agree", cod: 1 });
+                    }
+                }
+            ]
+        });
+        confirm.present();
+    };
+    /**
+     * Método responsável por abrir um radio button na tela a partir de uma lista
+     * */
+    Alertas.prototype.radioAlert = function (titulo, opcoes, callback) {
+        var _this = this;
+        var alert = this.alertCtrl.create();
+        alert.setTitle(titulo);
+        opcoes.sort();
+        var quantidadeDeOpcoes = opcoes.length;
+        for (var i = 0; i < quantidadeDeOpcoes; i++) {
+            alert.addInput({
+                type: 'radio',
+                label: opcoes[i].label,
+                value: opcoes[i].value,
+                checked: false
+            });
+        }
+        alert.addButton('Cancelar');
+        alert.addButton({
+            text: 'OK',
+            handler: function (data) {
+                _this.testRadioOpen = false;
+                callback({ codigo: data });
+            }
+        });
+        alert.present().then(function () {
+            _this.testRadioOpen = true;
+        });
+    };
+    /**
+     * Método utilizado para abrir uma seleção múltipla na tela.
+     * No parâmetro opcoes é passado um Array de objetos JSON, onde devem
+     * possuir os atributos 'label' (modo como serão apresentados na tela)
+     * e 'value' (valores para cada item do checkbox)
+     * */
+    Alertas.prototype.checkBoxAlert = function (titulo, opcoes, callback) {
+        var _this = this;
+        var alert = this.alertCtrl.create({
+            cssClass: '.alert-ios .alert-radio-label{ white-space: pre-line;} .alert-md .alert-radio-label{ white-space: pre-line;} .alert-wp .alert-radio-label{ white-space: pre-line;}',
+        });
+        alert.setTitle(titulo);
+        opcoes.sort();
+        var quantidadeDeOpcoes = opcoes.length;
+        for (var i = 0; i < quantidadeDeOpcoes; i++) {
+            alert.addInput({
+                type: 'checkbox',
+                label: opcoes[i].label,
+                value: opcoes[i].value,
+                checked: false
+            });
+        }
+        alert.addButton('Cancelar');
+        alert.addButton({
+            text: 'OK',
+            handler: function (data) {
+                _this.testRadioOpen = false;
+                callback(data);
+            }
+        });
+        alert.present().then(function () {
+            _this.testRadioOpen = true;
+        });
+    };
+    Alertas = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
+    ], Alertas);
+    return Alertas;
+}());
+
+//# sourceMappingURL=alertas.js.map
+
+/***/ }),
+
+/***/ 212:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NativeCamera; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ionic_native_camera__ = __webpack_require__(162);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var NativeCamera = (function () {
+    function NativeCamera(camera) {
+        this.camera = camera;
+        this.options = {
+            quality: 100,
+            destinationType: this.camera.DestinationType.DATA_URL,
+            encodingType: this.camera.EncodingType.JPEG,
+            mediaType: this.camera.MediaType.PICTURE,
+            allowEdit: true,
+            correctOrientation: true
+        };
+    }
+    NativeCamera.prototype.getPicture = function (callbackSucess, callbackError) {
+        this.camera.getPicture(this.options).then(function (imageData) {
+            var base64Image = 'data:image/jpeg;base64,' + imageData;
+            callbackSucess(base64Image);
+        }, function (err) {
+            callbackError(err);
+        });
+    };
+    NativeCamera = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["A" /* Injectable */])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0__ionic_native_camera__["a" /* Camera */]])
+    ], NativeCamera);
+    return NativeCamera;
+}());
+
+//# sourceMappingURL=nativeCamera.js.map
+
+/***/ }),
+
+/***/ 213:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SocialSharingService; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ionic_native_social_sharing__ = __webpack_require__(164);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+
+
+Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["A" /* Injectable */])();
+var SocialSharingService = (function () {
+    function SocialSharingService(socialSharing) {
+        this.socialSharing = socialSharing;
+    }
+    Object.defineProperty(SocialSharingService, "parameters", {
+        get: function () {
+            return [[__WEBPACK_IMPORTED_MODULE_0__ionic_native_social_sharing__["a" /* SocialSharing */]]];
+        },
+        enumerable: true,
+        configurable: true
+    });
+    SocialSharingService.prototype.shareViaFacebook = function (message, image, url) {
+        this.socialSharing.shareViaFacebook(message, image, url);
+    };
+    SocialSharingService.prototype.shareViaInstagram = function (message, image) {
+        this.socialSharing.shareViaInstagram(message, image);
+    };
+    SocialSharingService.prototype.shareViaWhatsApp = function (message, image, url) {
+        this.socialSharing.shareViaWhatsApp(message, image, url);
+    };
+    return SocialSharingService;
+}());
+
+//# sourceMappingURL=socialSharing.js.map
+
+/***/ }),
+
+/***/ 215:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Loading; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var Loading = (function () {
+    function Loading(loading) {
+        this.loadingCtrl = loading;
+    }
+    /**
+     * método responsável por abrir uma tela de loading.
+     * O parâmetro tipoLoading altera o tipo do loading apresentado na tela.
+     * Os valores do parâmetro são disponibilizados através das constante estáticas da
+     * classe
+     * @param mensagem
+     * @param tipoLoading
+     * @param conteudo
+     * */
+    Loading.prototype.showLoading = function (mensagem, tipoLoading) {
+        this.loader = this.loadingCtrl.create({
+            content: mensagem,
+            dismissOnPageChange: true,
+            spinner: tipoLoading
+        });
+        this.loader.present();
+    };
+    /**
+     * método responsável por fechar uma tela de loading
+     * */
+    Loading.prototype.dismissLoading = function () {
+        if (this.loader) {
+            this.loader.dismiss();
+        }
+    };
+    Loading.prototype.presentLoadingCustom = function () {
+        var loading = this.loadingCtrl.create({
+            spinner: 'hide',
+            content: "            \n      <div class=\"custom-spinner-container\">\n        <div class=\"custom-spinner-box\">        \n         <img style=\"margin-top: 10px; display: block; margin: 0 auto;\"  width=\"130\" height=\"65\" src=\"assets/svg/logo_intergado_animado.svg\" />\n        </div>\n        <ion-label text-capitalize style=\"display: flex; margin: auto\" color=\"primary\">processando</ion-label>\n      </div>",
+            duration: 5000
+        });
+        loading.present();
+    };
+    // CONSTANTES DOS TIPOS
+    Loading.DEFAULT = 'default';
+    Loading.IOS = 'ios';
+    Loading.DOTS = 'dots';
+    Loading.BUBBLES = 'bubbles';
+    Loading.CIRCLES = 'circles';
+    Loading.CRESCENT = 'crescent';
+    Loading = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */]])
+    ], Loading);
+    return Loading;
+}());
+
+//# sourceMappingURL=loading.js.map
+
+/***/ }),
+
+/***/ 216:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(217);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(236);
+
+
+Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
+//# sourceMappingURL=main.js.map
+
+/***/ }),
+
+/***/ 236:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* unused harmony export createTranslateLoader */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(209);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_header_color__ = __webpack_require__(210);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_vibration__ = __webpack_require__(214);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__app_component__ = __webpack_require__(300);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__componentesIonic_toast__ = __webpack_require__(301);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__componentesIonic_loading__ = __webpack_require__(215);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__componentesIonic_alertas__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__services_nativeCamera__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ionic_native_camera__ = __webpack_require__(162);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__services_socialSharing__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ionic_native_social_sharing__ = __webpack_require__(164);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_ng2_translate__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__angular_http__ = __webpack_require__(165);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function createTranslateLoader(http) {
+    return new __WEBPACK_IMPORTED_MODULE_15_ng2_translate__["d" /* TranslateStaticLoader */](http, './assets/i18n', '.json');
+}
+var AppModule = (function () {
+    function AppModule() {
+    }
+    AppModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* MyApp */]
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
+                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["e" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* MyApp */], {}, {
+                    links: [
+                        { loadChildren: '../pages/buttons/buttons.module#ButtonsPageModule', name: 'ButtonsPage', segment: 'buttons', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/camera/camera.module#CameraPageModule', name: 'CameraPage', segment: 'camera', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/config/config.module#ConfigPageModule', name: 'ConfigPage', segment: 'config', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/loading/loading.module#LoadingPageModule', name: 'LoadingPage', segment: 'loading', priority: 'low', defaultHistory: [] }
+                    ]
+                }),
+                __WEBPACK_IMPORTED_MODULE_15_ng2_translate__["b" /* TranslateModule */].forRoot({
+                    provide: __WEBPACK_IMPORTED_MODULE_15_ng2_translate__["a" /* TranslateLoader */],
+                    useFactory: (createTranslateLoader),
+                    deps: [__WEBPACK_IMPORTED_MODULE_16__angular_http__["a" /* Http */]]
+                })
+            ],
+            bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicApp */]],
+            entryComponents: [
+                __WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* MyApp */]
+            ],
+            providers: [
+                __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__["a" /* StatusBar */],
+                __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */],
+                { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicErrorHandler */] }, __WEBPACK_IMPORTED_MODULE_14__ionic_native_social_sharing__["a" /* SocialSharing */],
+                __WEBPACK_IMPORTED_MODULE_8__componentesIonic_toast__["a" /* Toast */], __WEBPACK_IMPORTED_MODULE_9__componentesIonic_loading__["a" /* Loading */], __WEBPACK_IMPORTED_MODULE_10__componentesIonic_alertas__["a" /* Alertas */], __WEBPACK_IMPORTED_MODULE_5__ionic_native_header_color__["a" /* HeaderColor */], __WEBPACK_IMPORTED_MODULE_11__services_nativeCamera__["a" /* NativeCamera */], __WEBPACK_IMPORTED_MODULE_12__ionic_native_camera__["a" /* Camera */], __WEBPACK_IMPORTED_MODULE_13__services_socialSharing__["a" /* SocialSharingService */], __WEBPACK_IMPORTED_MODULE_6__ionic_native_vibration__["a" /* Vibration */]
+            ]
+        })
+    ], AppModule);
+    return AppModule;
+}());
+
+//# sourceMappingURL=app.module.js.map
+
+/***/ }),
+
+/***/ 300:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(209);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_header_color__ = __webpack_require__(210);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_ng2_translate__ = __webpack_require__(105);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+var MyApp = (function () {
+    function MyApp(platform, statusBar, splashScreen, headerColor, translate) {
+        var _this = this;
+        this.statusBar = statusBar;
+        this.headerColor = headerColor;
+        this.translate = translate;
+        this.rootPage = 'LoadingPage';
+        platform.ready().then(function () {
+            var language = localStorage.getItem('language');
+            if (language) {
+                _this.translate.use(language);
+            }
+            else {
+                _this.translate.use("pt");
+            }
+            // Okay, so the platform is ready and our plugins are available.
+            // Here you can do any higher level native things you might need.
+            statusBar.styleDefault();
+            _this.statusBar.styleLightContent();
+            _this.statusBar.backgroundColorByHexString('#006666');
+            _this.translate.addLangs(["pt", "en"]);
+            splashScreen.hide();
+            _this.headerColor.tint('#008B8B');
+        });
+    }
+    MyApp.prototype.openPage = function (page) {
+        this.rootPage = page;
+    };
+    MyApp = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/home/hebert/Aplicativos/ionic-demo/src/app/app.html"*/'<ion-menu [content]="content">\n    <ion-header>\n        <ion-toolbar color="primary">\n            <ion-title>Menu</ion-title>\n        </ion-toolbar>\n    </ion-header>\n    <ion-content>\n        <ion-list>\n\n            <button ion-item menuClose clear (tap)="openPage(\'LoadingPage\')">\n                <div item-left style="width:10px; float:left"> </div>\n                <img style="float:left" width="23" height="23" src="assets/svg/loading.svg" item-left/> Loading\n            </button>\n\n            <button ion-item menuClose clear (tap)="openPage(\'ButtonsPage\')">\n                <div item-left style="width:10px; float:left"> </div>\n                <img style="float:left" width="23" height="23" src="assets/svg/press.svg" item-left/> {{\'botoes\' | translate}}\n            </button>\n\n            <button ion-item menuClose clear (tap)="openPage(\'CameraPage\')">\n                <div item-left style="width:10px; float:left"> </div>\n                <img style="float:left" width="23" height="23" src="assets/svg/camera.svg" item-left/> {{\'camera\' | translate}}\n            </button>\n\n            <button ion-item menuClose clear (tap)="openPage(\'ConfigPage\')">\n                <div item-left style="width:10px; float:left"> </div>\n                <img style="float:left" width="23" height="23" src="assets/svg/gear.svg" item-left/> {{\'configuracao\' | translate}}\n            </button>\n\n        </ion-list>\n    </ion-content>\n</ion-menu>\n\n<ion-nav id="nav" #content [root]="rootPage"></ion-nav>'/*ion-inline-end:"/home/hebert/Aplicativos/ionic-demo/src/app/app.html"*/
+        }),
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Platform */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_4__ionic_native_header_color__["a" /* HeaderColor */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__ionic_native_header_color__["a" /* HeaderColor */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_5_ng2_translate__["c" /* TranslateService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_5_ng2_translate__["c" /* TranslateService */]) === "function" && _e || Object])
+    ], MyApp);
+    return MyApp;
+    var _a, _b, _c, _d, _e;
+}());
+
+//# sourceMappingURL=app.component.js.map
+
+/***/ }),
+
+/***/ 301:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Toast; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var Toast = (function () {
+    function Toast(toastCtrl) {
+        this.toastCtrl = toastCtrl;
+    }
+    /**Função que mostra uma pequena mensagem na tela.
+     * O primeiro parâmetro é a mensagem. O segundo é a posição [top, bottom e middle].
+     * O terceiro parâmetro é a duração, se o valor for undefined o valor padrão é 3000 milisegundos
+    */
+    Toast.prototype.showToast = function (mensagem, posicao, duracao) {
+        var toast = this.toastCtrl.create({
+            message: mensagem,
+            duration: duracao,
+            position: posicao
+        });
+        toast.present(toast);
+    };
+    Toast.prototype.showToastWithConfirmation = function (mensagem, posicao, labelFechar) {
+        var toast = this.toastCtrl.create({
+            message: mensagem,
+            position: posicao,
+            showCloseButton: true,
+            closeButtonText: labelFechar
+        });
+        toast.present(toast);
+    };
+    Toast.BOTTOM = 'bottom';
+    Toast.TOP = 'top';
+    Toast.MIDDLE = 'middle';
+    Toast = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* ToastController */]])
+    ], Toast);
+    return Toast;
+}());
+
+//# sourceMappingURL=toast.js.map
+
+/***/ })
+
+},[216]);
+//# sourceMappingURL=main.js.map

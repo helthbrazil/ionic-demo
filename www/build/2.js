@@ -1,1 +1,153 @@
-webpackJsonp([2],{243:function(l,n,u){"use strict";function a(l){return o._20(0,[(l()(),o._0(0,0,null,null,32,"ion-header",[],null,null,null,null,null)),o.Z(1,16384,null,0,f.a,[j.a,o.j,o.A,[2,p.a]],null,null),(l()(),o._19(-1,null,["\n  "])),(l()(),o._0(3,0,null,null,28,"ion-navbar",[["class","toolbar"],["color","primary"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,h.b,h.a)),o.Z(4,49152,null,0,Z.a,[A.a,[2,p.a],[2,v.a],j.a,o.j,o.A],{color:[0,"color"]},null),(l()(),o._19(-1,3,["\n    "])),(l()(),o._0(6,0,null,0,8,"button",[["icon-only",""],["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==o._14(l,8).toggle()&&a}return a},y.b,y.a)),o.Z(7,1097728,[[1,4]],0,B.a,[[8,""],j.a,o.j,o.A],null,null),o.Z(8,1064960,null,0,C.a,[P.a,[2,p.a],[2,B.a],[2,Z.a]],{menuToggle:[0,"menuToggle"]},null),o.Z(9,16384,null,1,q.a,[j.a,o.j,o.A,[2,w.a],[2,Z.a]],null,null),o._17(603979776,1,{_buttons:1}),(l()(),o._19(-1,0,["\n      "])),(l()(),o._0(12,0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),o.Z(13,147456,null,0,T.a,[j.a,o.j,o.A],{name:[0,"name"]},null),(l()(),o._19(-1,0,["\n    "])),(l()(),o._19(-1,3,["\n    "])),(l()(),o._0(16,0,null,3,2,"ion-title",[],null,null,null,x.b,x.a)),o.Z(17,49152,null,0,I.a,[j.a,o.j,o.A,[2,w.a],[2,Z.a]],null,null),(l()(),o._19(-1,0,["\n      Buttons\n    "])),(l()(),o._19(-1,3,["\n\n    "])),(l()(),o._0(20,0,null,2,10,"ion-buttons",[["end",""]],null,null,null,null,null)),o.Z(21,16384,null,1,q.a,[j.a,o.j,o.A,[2,w.a],[2,Z.a]],null,null),o._17(603979776,2,{_buttons:1}),(l()(),o._19(-1,null,["\n      "])),(l()(),o._0(24,0,null,null,5,"button",[["icon-only",""],["ion-button",""]],null,[[null,"tap"]],function(l,n,u){var a=!0;if("tap"===n){a=!1!==l.component.showInfo()&&a}return a},y.b,y.a)),o.Z(25,1097728,[[2,4]],0,B.a,[[8,""],j.a,o.j,o.A],null,null),(l()(),o._19(-1,0,["\n        "])),(l()(),o._0(27,0,null,0,1,"ion-icon",[["name","md-information-circle"],["role","img"]],[[2,"hide",null]],null,null,null,null)),o.Z(28,147456,null,0,T.a,[j.a,o.j,o.A],{name:[0,"name"]},null),(l()(),o._19(-1,0,["\n      "])),(l()(),o._19(-1,null,["\n    "])),(l()(),o._19(-1,3,["\n\n  "])),(l()(),o._19(-1,null,["\n"])),(l()(),o._19(-1,null,["\n\n"])),(l()(),o._0(34,0,null,null,51,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,L.b,L.a)),o.Z(35,4374528,null,0,D.a,[j.a,M.a,O.a,o.j,o.A,A.a,R.a,o.v,[2,p.a],[2,v.a]],null,null),(l()(),o._19(-1,1,["\n  "])),(l()(),o._0(37,0,null,1,21,"div",[["padding",""]],null,null,null,null,null)),(l()(),o._19(-1,null,["\n    "])),(l()(),o._0(39,0,null,null,2,"button",[["color","primary"],["ion-button",""],["outline",""]],null,null,null,y.b,y.a)),o.Z(40,1097728,null,0,B.a,[[8,""],j.a,o.j,o.A],{color:[0,"color"],outline:[1,"outline"]},null),(l()(),o._19(-1,0,[" Outline"])),(l()(),o._19(-1,null,["\n    "])),(l()(),o._0(43,0,null,null,2,"button",[["clear",""],["color","primary"],["ion-button",""]],null,null,null,y.b,y.a)),o.Z(44,1097728,null,0,B.a,[[8,""],j.a,o.j,o.A],{color:[0,"color"],clear:[1,"clear"]},null),(l()(),o._19(-1,0,[" Clear"])),(l()(),o._19(-1,null,["\n    "])),(l()(),o._0(47,0,null,null,2,"button",[["color","primary"],["ion-button",""],["round",""]],null,null,null,y.b,y.a)),o.Z(48,1097728,null,0,B.a,[[8,""],j.a,o.j,o.A],{color:[0,"color"],round:[1,"round"]},null),(l()(),o._19(-1,0,[" Round"])),(l()(),o._19(-1,null,["\n    "])),(l()(),o._0(51,0,null,null,2,"button",[["ion-button",""]],null,null,null,y.b,y.a)),o.Z(52,1097728,null,0,B.a,[[8,""],j.a,o.j,o.A],null,null),(l()(),o._19(-1,0,[" Button"])),(l()(),o._19(-1,null,["\n    "])),(l()(),o._0(55,0,null,null,2,"button",[["block",""],["ion-button",""]],null,null,null,y.b,y.a)),o.Z(56,1097728,null,0,B.a,[[8,""],j.a,o.j,o.A],{block:[0,"block"]},null),(l()(),o._19(-1,0,["Block Button"])),(l()(),o._19(-1,null,["\n  "])),(l()(),o._19(-1,1,["\n  "])),(l()(),o._0(60,0,null,1,2,"button",[["full",""],["ion-button",""]],null,null,null,y.b,y.a)),o.Z(61,1097728,null,0,B.a,[[8,""],j.a,o.j,o.A],{full:[0,"full"]},null),(l()(),o._19(-1,0,["Block Button"])),(l()(),o._19(-1,1,["\n\n  "])),(l()(),o._0(64,0,null,1,20,"div",[["padding",""]],null,null,null,null,null)),(l()(),o._19(-1,null,["\n    "])),(l()(),o._0(66,0,null,null,5,"button",[["icon-left",""],["ion-button",""]],null,null,null,y.b,y.a)),o.Z(67,1097728,null,0,B.a,[[8,""],j.a,o.j,o.A],null,null),(l()(),o._19(-1,0,["\n      "])),(l()(),o._0(69,0,null,0,1,"ion-icon",[["name","home"],["role","img"]],[[2,"hide",null]],null,null,null,null)),o.Z(70,147456,null,0,T.a,[j.a,o.j,o.A],{name:[0,"name"]},null),(l()(),o._19(-1,0,["\n      Left Icon\n    "])),(l()(),o._19(-1,null,["\n\n    "])),(l()(),o._19(-1,null,["\n    "])),(l()(),o._0(74,0,null,null,5,"button",[["icon-only",""],["ion-button",""]],null,null,null,y.b,y.a)),o.Z(75,1097728,null,0,B.a,[[8,""],j.a,o.j,o.A],null,null),(l()(),o._19(-1,0,["\n      "])),(l()(),o._0(77,0,null,0,1,"ion-icon",[["name","home"],["role","img"]],[[2,"hide",null]],null,null,null,null)),o.Z(78,147456,null,0,T.a,[j.a,o.j,o.A],{name:[0,"name"]},null),(l()(),o._19(-1,0,["\n    "])),(l()(),o._19(-1,null,["\n\n    "])),(l()(),o._0(81,0,null,null,2,"button",[["class","botao"],["ion-button",""]],null,null,null,y.b,y.a)),o.Z(82,1097728,null,0,B.a,[[8,""],j.a,o.j,o.A],null,null),(l()(),o._19(-1,0,[" Custom 1"])),(l()(),o._19(-1,null,["\n  "])),(l()(),o._19(-1,1,["\n"]))],function(l,n){l(n,4,0,"primary");l(n,8,0,"");l(n,13,0,"menu");l(n,28,0,"md-information-circle");l(n,40,0,"primary","");l(n,44,0,"primary","");l(n,48,0,"primary","");l(n,56,0,"");l(n,61,0,"");l(n,70,0,"home");l(n,78,0,"home")},function(l,n){l(n,3,0,o._14(n,4)._hidden,o._14(n,4)._sbPadding);l(n,6,0,o._14(n,8).isHidden);l(n,12,0,o._14(n,13)._hidden);l(n,27,0,o._14(n,28)._hidden);l(n,34,0,o._14(n,35).statusbarPadding,o._14(n,35)._hasRefresher);l(n,69,0,o._14(n,70)._hidden);l(n,77,0,o._14(n,78)._hidden)})}Object.defineProperty(n,"__esModule",{value:!0});var o=u(0),t=(u(3),u(42),u(119)),i=function(){function l(l,n,u){this.navCtrl=l,this.navParams=n,this.alert=u}return l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad ButtonsPage")},l.prototype.showInfo=function(){this.alert.simpleAlert("Alerta","Simples")},l}(),e=function(){return function(){}}(),_=u(195),r=u(196),c=u(197),s=u(198),b=u(199),d=u(200),m=u(201),g=u(202),k=u(203),f=u(76),j=u(1),p=u(5),h=u(246),Z=u(32),A=u(8),v=u(19),y=u(44),B=u(20),C=u(120),P=u(22),q=u(121),w=u(33),T=u(43),x=u(204),I=u(55),L=u(205),D=u(21),M=u(4),O=u(9),R=u(24),V=u(10),Y=o.Y({encapsulation:2,styles:[],data:{}}),F=o.W("page-buttons",i,function(l){return o._20(0,[(l()(),o._0(0,0,null,null,1,"page-buttons",[],null,null,null,a,Y)),o.Z(1,49152,null,0,i,[v.a,V.a,t.a],null,null)],null,null)},{},{},[]),H=u(13),J=u(18),N=u(122),S=u(37);u.d(n,"ButtonsPageModuleNgFactory",function(){return W});var W=o.X(e,[],function(l){return o._11([o._12(512,o.i,o.T,[[8,[_.a,r.a,c.a,s.a,b.a,d.a,m.a,g.a,k.a,F]],[3,o.i],o.t]),o._12(4608,H.k,H.j,[o.s,[2,H.s]]),o._12(4608,J.k,J.k,[]),o._12(4608,J.c,J.c,[]),o._12(512,H.b,H.b,[]),o._12(512,J.j,J.j,[]),o._12(512,J.d,J.d,[]),o._12(512,J.i,J.i,[]),o._12(512,N.a,N.a,[]),o._12(512,N.b,N.b,[]),o._12(512,e,e,[]),o._12(256,S.a,i,[])])})},246:function(l,n,u){"use strict";function a(l){return o._20(0,[(l()(),o._0(0,0,null,null,1,"div",[["class","toolbar-background"]],null,null,null,null,null)),o.Z(1,278528,null,0,t.g,[o.q,o.r,o.j,o.B],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(l()(),o._0(2,0,null,null,8,"button",[["class","back-button"],["ion-button","bar-button"]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.backButtonClick(u)&&a}return a},i.b,i.a)),o.Z(3,278528,null,0,t.g,[o.q,o.r,o.j,o.B],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),o.Z(4,1097728,null,0,e.a,[[8,"bar-button"],_.a,o.j,o.A],null,null),(l()(),o._0(5,0,null,0,2,"ion-icon",[["class","back-button-icon"],["role","img"]],[[2,"hide",null]],null,null,null,null)),o.Z(6,278528,null,0,t.g,[o.q,o.r,o.j,o.B],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),o.Z(7,147456,null,0,r.a,[_.a,o.j,o.A],{name:[0,"name"]},null),(l()(),o._0(8,0,null,0,2,"span",[["class","back-button-text"]],null,null,null,null,null)),o.Z(9,278528,null,0,t.g,[o.q,o.r,o.j,o.B],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(l()(),o._19(10,null,["",""])),o._13(null,0),o._13(null,1),o._13(null,2),(l()(),o._0(14,0,null,null,2,"div",[["class","toolbar-content"]],null,null,null,null,null)),o.Z(15,278528,null,0,t.g,[o.q,o.r,o.j,o.B],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),o._13(null,3)],function(l,n){var u=n.component;l(n,1,0,"toolbar-background","toolbar-background-"+u._mode);l(n,3,0,"back-button","back-button-"+u._mode);l(n,6,0,"back-button-icon","back-button-icon-"+u._mode);l(n,7,0,u._bbIcon);l(n,9,0,"back-button-text","back-button-text-"+u._mode);l(n,15,0,"toolbar-content","toolbar-content-"+u._mode)},function(l,n){var u=n.component;l(n,2,0,u._hideBb);l(n,5,0,o._14(n,7)._hidden);l(n,10,0,u._backText)})}u.d(n,"a",function(){return c}),n.b=a;var o=u(0),t=u(13),i=u(44),e=u(20),_=u(1),r=u(43),c=(u(5),u(19),o.Y({encapsulation:2,styles:[],data:{}}))}});
+webpackJsonp([2],{
+
+/***/ 303:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CameraPageModule", function() { return CameraPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__camera__ = __webpack_require__(307);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ng2_translate__ = __webpack_require__(105);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+var CameraPageModule = (function () {
+    function CameraPageModule() {
+    }
+    CameraPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__camera__["a" /* CameraPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__camera__["a" /* CameraPage */]), __WEBPACK_IMPORTED_MODULE_3_ng2_translate__["b" /* TranslateModule */]
+            ],
+        })
+    ], CameraPageModule);
+    return CameraPageModule;
+}());
+
+//# sourceMappingURL=camera.module.js.map
+
+/***/ }),
+
+/***/ 307:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CameraPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_nativeCamera__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_socialSharing__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_vibration__ = __webpack_require__(214);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__componentesIonic_alertas__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_ng2_translate__ = __webpack_require__(105);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+var CameraPage = (function () {
+    function CameraPage(navCtrl, navParams, nativeCamera, actionSheetCtrl, socialSharingService, vibration, alert, translate) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.nativeCamera = nativeCamera;
+        this.actionSheetCtrl = actionSheetCtrl;
+        this.socialSharingService = socialSharingService;
+        this.vibration = vibration;
+        this.alert = alert;
+        this.translate = translate;
+    }
+    CameraPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad CameraPage');
+    };
+    CameraPage.prototype.getPicture = function () {
+        var _this = this;
+        this.nativeCamera.getPicture(function (base64) {
+            _this.base64Image = base64;
+        }, function (error) {
+            console.error(error);
+        });
+    };
+    CameraPage.prototype.pressEvent = function (event) {
+        var _this = this;
+        this.vibration.vibrate(100);
+        var actionSheet = this.actionSheetCtrl.create({
+            title: 'Share your picture',
+            buttons: [
+                {
+                    text: 'Share with Facebook',
+                    icon: 'logo-facebook',
+                    handler: function () {
+                        _this.socialSharingService.shareViaFacebook("Shared via Facebook", _this.base64Image, null);
+                    }
+                },
+                {
+                    text: 'Share with Instagram',
+                    icon: 'logo-instagram',
+                    handler: function () {
+                        _this.socialSharingService.shareViaInstagram("Shared via Facebook", _this.base64Image);
+                    }
+                },
+                {
+                    text: 'Share with WhatsApp',
+                    icon: 'logo-whatsapp',
+                    handler: function () {
+                        _this.socialSharingService.shareViaWhatsApp("Shared via Facebook", _this.base64Image, null);
+                    }
+                },
+                {
+                    text: 'Cancel',
+                    role: 'cancel',
+                    handler: function () {
+                        console.log('Cancel clicked');
+                    }
+                }
+            ]
+        });
+        actionSheet.present();
+    };
+    CameraPage.prototype.showInfo = function () {
+        var _this = this;
+        this.translate.get("cameraInfo").subscribe(function (translate) {
+            _this.alert.simpleAlert("Camera", translate);
+        });
+    };
+    CameraPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-camera',template:/*ion-inline-start:"/home/hebert/Aplicativos/ionic-demo/src/pages/camera/camera.html"*/'<ion-header>\n  <ion-navbar color="primary">\n    <button ion-button menuToggle icon-only>\n      <ion-icon name=\'menu\'></ion-icon>\n    </button>\n    <ion-title>\n      {{\'camera\' | translate}}\n    </ion-title>\n\n    <ion-buttons end>\n      <button (tap)="showInfo()" ion-button icon-only>\n        <ion-icon name="md-information-circle"></ion-icon>\n      </button>\n    </ion-buttons>\n\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n  <button ion-button class="botao" (tap)="getPicture()" block>{{\'tirarFoto\' | translate}}</button>\n  <div padding></div>\n  <img (press)="pressEvent($event)" src="{{base64Image}}" alt="">\n\n</ion-content>'/*ion-inline-end:"/home/hebert/Aplicativos/ionic-demo/src/pages/camera/camera.html"*/,
+        }),
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__services_nativeCamera__["a" /* NativeCamera */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__services_nativeCamera__["a" /* NativeCamera */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* ActionSheetController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* ActionSheetController */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_3__services_socialSharing__["a" /* SocialSharingService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__services_socialSharing__["a" /* SocialSharingService */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_4__ionic_native_vibration__["a" /* Vibration */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__ionic_native_vibration__["a" /* Vibration */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_5__componentesIonic_alertas__["a" /* Alertas */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_5__componentesIonic_alertas__["a" /* Alertas */]) === "function" && _g || Object, typeof (_h = typeof __WEBPACK_IMPORTED_MODULE_6_ng2_translate__["c" /* TranslateService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_6_ng2_translate__["c" /* TranslateService */]) === "function" && _h || Object])
+    ], CameraPage);
+    return CameraPage;
+    var _a, _b, _c, _d, _e, _f, _g, _h;
+}());
+
+//# sourceMappingURL=camera.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=2.js.map

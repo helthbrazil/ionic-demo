@@ -14,6 +14,12 @@ import { NativeCamera } from '../services/nativeCamera';
 import { Camera } from '@ionic-native/camera';
 import { SocialSharingService } from '../services/socialSharing';
 import { SocialSharing } from '@ionic-native/social-sharing';
+import { TranslateModule, TranslateLoader, TranslateStaticLoader } from 'ng2-translate';
+import { Http } from '@angular/http';
+
+export function createTranslateLoader(http: Http) {
+  return new TranslateStaticLoader(http, './assets/i18n', '.json');
+}
 
 
 @NgModule({
@@ -22,7 +28,12 @@ import { SocialSharing } from '@ionic-native/social-sharing';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    TranslateModule.forRoot({
+      provide: TranslateLoader,
+      useFactory: (createTranslateLoader),
+      deps: [Http]
+    })
   ],
   bootstrap: [IonicApp],
   entryComponents: [

@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <button ion-button menuToggle icon-only>
+      <ion-icon name='menu'></ion-icon>
+    </button>
+    <ion-title>
+      {{'configuracao' | translate}}
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list [(ngModel)]="languageSelected" radio-group>
+    <ion-list-header no-lines>
+      {{'linguagem' | translate}}
+      <!--   {{'linguagem': translate}} -->
+    </ion-list-header>
+
+    <ion-item no-lines>
+      <ion-label>{{'portugues' | translate }}</ion-label>
+      <ion-radio (tap)="selectLanguage('pt')" value="pt"></ion-radio>
+    </ion-item>
+
+    <ion-item no-lines>
+      <ion-label>{{'ingles' | translate }}</ion-label>
+      <ion-radio (tap)="selectLanguage('en')" value="en"></ion-radio>
+    </ion-item>
+
+    <ion-item no-lines>
+      <ion-label>{{'espanhol' | translate }}</ion-label>
+      <ion-radio (tap)="selectLanguage('es')" value="es"></ion-radio>
+    </ion-item>
+
+  </ion-list>
+
+  <button (tap)="updateLanguage()" ion-button block class="botao">{{'trocarIdioma' | translate }}</button>
+</ion-content>

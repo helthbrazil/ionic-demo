@@ -14,12 +14,17 @@
 
             <button ion-item menuClose clear (tap)="openPage('ButtonsPage')">
                 <div item-left style="width:10px; float:left"> </div>
-                <img style="float:left" width="23" height="23" src="assets/svg/press.svg" item-left/> Buttons
+                <img style="float:left" width="23" height="23" src="assets/svg/press.svg" item-left/> {{'botoes' | translate}}
             </button>
 
             <button ion-item menuClose clear (tap)="openPage('CameraPage')">
                 <div item-left style="width:10px; float:left"> </div>
-                <img style="float:left" width="23" height="23" src="assets/svg/camera.svg" item-left/> Camera
+                <img style="float:left" width="23" height="23" src="assets/svg/camera.svg" item-left/> {{'camera' | translate}}
+            </button>
+
+            <button ion-item menuClose clear (tap)="openPage('ConfigPage')">
+                <div item-left style="width:10px; float:left"> </div>
+                <img style="float:left" width="23" height="23" src="assets/svg/gear.svg" item-left/> {{'configuracao' | translate}}
             </button>
 
         </ion-list>

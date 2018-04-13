@@ -1,0 +1,14 @@
+{
+    "configuracao": "Settings",
+    "linguagem": "Language",
+    "portugues": "Portuguese",
+    "espanhol": "Spanish",
+    "ingles": "English",
+    "salvar": "Save",
+    "botoes": "Buttons",
+    "camera": "Camera",
+    "trocarIdioma": "Update language",
+    "tirarFoto": "Get Picture",
+    "cameraInfo": "After you get picture hold the image for open the action sheet, you can share the picture via Facebook, Instagram and WhatsApp",
+    "linguagemAtualizada": "The language has been updated successfully"
+}

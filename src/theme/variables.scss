@@ -13,7 +13,9 @@ $app-direction: ltr;
 
 
 @import "ionic.globals";
-
+$size-radio : 20px;
+$radio-md-icon-width :	$size-radio;	
+$radio-md-icon-height:  $size-radio;	
 
 // Shared Variables
 // --------------------------------------------------
