@@ -4,11 +4,14 @@
     "portugues": "Português",
     "espanhol": "Espanhol",
     "ingles": "Inglês",
-    "salvar" : "Salvar",
-    "botoes" : "Botões",
-    "camera" : "Câmera",
-    "trocarIdioma" : "Atualizar idioma",
-    "tirarFoto" : "Tirar fotografia",
-    "cameraInfo" : "Após tirar a foto pressione a imagem por alguns segundos para abrir um menu de ação. Você poderá compartilhar a fotografia via Facebook, Instagram and WhatsApp",
-    "linguagemAtualizada" : "O idioma foi atualizado com sucesso"
+    "salvar": "Salvar",
+    "botoes": "Botões",
+    "camera": "Câmera",
+    "trocarIdioma": "Atualizar idioma",
+    "tirarFoto": "Tirar fotografia",
+    "cameraInfo": "Após tirar a foto pressione a imagem por alguns segundos para abrir um menu de ação. Você poderá compartilhar a fotografia via Facebook, Instagram and WhatsApp",
+    "linguagemAtualizada": "O idioma foi atualizado com sucesso",
+    "bancoDeDados": "Banco de dados",
+    "categoria": "Categoria",
+    "criarCategoria": "Criar nova categoria"
 }

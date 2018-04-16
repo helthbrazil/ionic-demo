@@ -85,6 +85,22 @@ module.exports = [
     "clobbers": [
       "window.plugins.socialsharing"
     ]
+  },
+  {
+    "id": "cordova-sqlite-storage.SQLitePlugin",
+    "file": "plugins/cordova-sqlite-storage/www/SQLitePlugin.js",
+    "pluginId": "cordova-sqlite-storage",
+    "clobbers": [
+      "SQLitePlugin"
+    ]
+  },
+  {
+    "id": "uk.co.workingedge.cordova.plugin.sqliteporter.sqlitePorter",
+    "file": "plugins/uk.co.workingedge.cordova.plugin.sqliteporter/www/sqlitePorter.js",
+    "pluginId": "uk.co.workingedge.cordova.plugin.sqliteporter",
+    "clobbers": [
+      "cordova.plugins.sqlitePorter"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -100,7 +116,9 @@ module.exports.metadata =
   "cordova-plugin-camera": "4.0.2",
   "es6-promise-plugin": "4.1.0",
   "cordova-plugin-x-socialsharing": "5.2.1",
-  "cordova-plugin-vibration": "3.0.1"
+  "cordova-plugin-vibration": "3.0.1",
+  "cordova-sqlite-storage": "2.3.0",
+  "uk.co.workingedge.cordova.plugin.sqliteporter": "1.0.2"
 };
 // BOTTOM OF METADATA
 });

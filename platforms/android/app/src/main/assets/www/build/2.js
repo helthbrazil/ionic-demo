@@ -1,1 +1,125 @@
-webpackJsonp([2],{267:function(n,l,a){"use strict";function u(n){return t._22(0,[(n()(),t._0(0,0,null,null,33,"ion-header",[],null,null,null,null,null)),t.Z(1,16384,null,0,j.a,[C.a,t.j,t.A,[2,Z.a]],null,null),(n()(),t._20(-1,null,["\n  "])),(n()(),t._0(3,0,null,null,29,"ion-navbar",[["class","toolbar"],["color","primary"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,S.b,S.a)),t.Z(4,49152,null,0,A.a,[y.a,[2,Z.a],[2,I.a],C.a,t.j,t.A],{color:[0,"color"]},null),(n()(),t._20(-1,3,["\n    "])),(n()(),t._0(6,0,null,0,8,"button",[["icon-only",""],["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(n,l,a){var u=!0;if("click"===l){u=!1!==t._14(n,8).toggle()&&u}return u},w.b,w.a)),t.Z(7,1097728,[[1,4]],0,P.a,[[8,""],C.a,t.j,t.A],null,null),t.Z(8,1064960,null,0,x.a,[B.a,[2,Z.a],[2,P.a],[2,A.a]],{menuToggle:[0,"menuToggle"]},null),t.Z(9,16384,null,1,F.a,[C.a,t.j,t.A,[2,q.a],[2,A.a]],null,null),t._18(603979776,1,{_buttons:1}),(n()(),t._20(-1,0,["\n      "])),(n()(),t._0(12,0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),t.Z(13,147456,null,0,T.a,[C.a,t.j,t.A],{name:[0,"name"]},null),(n()(),t._20(-1,0,["\n    "])),(n()(),t._20(-1,3,["\n    "])),(n()(),t._0(16,0,null,3,3,"ion-title",[],null,null,null,V.b,V.a)),t.Z(17,49152,null,0,W.a,[C.a,t.j,t.A,[2,q.a],[2,A.a]],null,null),(n()(),t._20(18,0,["\n      ","\n    "])),t._15(131072,D.a,[E.c,t.g]),(n()(),t._20(-1,3,["\n\n    "])),(n()(),t._0(21,0,null,2,10,"ion-buttons",[["end",""]],null,null,null,null,null)),t.Z(22,16384,null,1,F.a,[C.a,t.j,t.A,[2,q.a],[2,A.a]],null,null),t._18(603979776,2,{_buttons:1}),(n()(),t._20(-1,null,["\n      "])),(n()(),t._0(25,0,null,null,5,"button",[["icon-only",""],["ion-button",""]],null,[[null,"tap"]],function(n,l,a){var u=!0;if("tap"===l){u=!1!==n.component.showInfo()&&u}return u},w.b,w.a)),t.Z(26,1097728,[[2,4]],0,P.a,[[8,""],C.a,t.j,t.A],null,null),(n()(),t._20(-1,0,["\n        "])),(n()(),t._0(28,0,null,0,1,"ion-icon",[["name","md-information-circle"],["role","img"]],[[2,"hide",null]],null,null,null,null)),t.Z(29,147456,null,0,T.a,[C.a,t.j,t.A],{name:[0,"name"]},null),(n()(),t._20(-1,0,["\n      "])),(n()(),t._20(-1,null,["\n    "])),(n()(),t._20(-1,3,["\n\n  "])),(n()(),t._20(-1,null,["\n"])),(n()(),t._20(-1,null,["\n\n\n"])),(n()(),t._0(35,0,null,null,11,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,L.b,L.a)),t.Z(36,4374528,null,0,M.a,[C.a,Y.a,H.a,t.j,t.A,y.a,J.a,t.v,[2,Z.a],[2,I.a]],null,null),(n()(),t._20(-1,1,["\n  "])),(n()(),t._0(38,0,null,1,3,"button",[["block",""],["class","botao"],["ion-button",""]],null,[[null,"tap"]],function(n,l,a){var u=!0;if("tap"===l){u=!1!==n.component.getPicture()&&u}return u},w.b,w.a)),t.Z(39,1097728,null,0,P.a,[[8,""],C.a,t.j,t.A],{block:[0,"block"]},null),(n()(),t._20(40,0,["",""])),t._15(131072,D.a,[E.c,t.g]),(n()(),t._20(-1,1,["\n  "])),(n()(),t._0(43,0,null,1,0,"div",[["padding",""]],null,null,null,null,null)),(n()(),t._20(-1,1,["\n  "])),(n()(),t._0(45,0,null,1,0,"img",[["alt",""]],[[8,"src",4]],[[null,"press"]],function(n,l,a){var u=!0;if("press"===l){u=!1!==n.component.pressEvent(a)&&u}return u},null,null)),(n()(),t._20(-1,1,["\n\n"]))],function(n,l){n(l,4,0,"primary");n(l,8,0,"");n(l,13,0,"menu");n(l,29,0,"md-information-circle");n(l,39,0,"")},function(n,l){var a=l.component;n(l,3,0,t._14(l,4)._hidden,t._14(l,4)._sbPadding);n(l,6,0,t._14(l,8).isHidden);n(l,12,0,t._14(l,13)._hidden);n(l,18,0,t._21(l,18,0,t._14(l,19).transform("camera")));n(l,28,0,t._14(l,29)._hidden);n(l,35,0,t._14(l,36).statusbarPadding,t._14(l,36)._hasRefresher);n(l,40,0,t._21(l,40,0,t._14(l,41).transform("tirarFoto")));n(l,45,0,t._3(1,"",a.base64Image,""))})}Object.defineProperty(l,"__esModule",{value:!0});var t=a(0),o=(a(3),a(43),a(130)),e=a(131),i=a(132),r=a(126),c=a(81),s=function(){function n(n,l,a,u,t,o,e,i){this.navCtrl=n,this.navParams=l,this.nativeCamera=a,this.actionSheetCtrl=u,this.socialSharingService=t,this.vibration=o,this.alert=e,this.translate=i}return n.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad CameraPage")},n.prototype.getPicture=function(){var n=this;this.nativeCamera.getPicture(function(l){n.base64Image=l},function(n){console.error(n)})},n.prototype.pressEvent=function(n){var l=this;this.vibration.vibrate(100);this.actionSheetCtrl.create({title:"Share your picture",buttons:[{text:"Share with Facebook",icon:"logo-facebook",handler:function(){l.socialSharingService.shareViaFacebook("Shared via Facebook",l.base64Image,null)}},{text:"Share with Instagram",icon:"logo-instagram",handler:function(){l.socialSharingService.shareViaInstagram("Shared via Facebook",l.base64Image)}},{text:"Share with WhatsApp",icon:"logo-whatsapp",handler:function(){l.socialSharingService.shareViaWhatsApp("Shared via Facebook",l.base64Image,null)}},{text:"Cancel",role:"cancel",handler:function(){console.log("Cancel clicked")}}]}).present()},n.prototype.showInfo=function(){var n=this;this.translate.get("cameraInfo").subscribe(function(l){n.alert.simpleAlert("Camera",l)})},n}(),_=function(){return function(){}}(),b=a(207),d=a(208),g=a(209),h=a(210),m=a(211),f=a(212),p=a(213),k=a(214),v=a(215),j=a(83),C=a(1),Z=a(5),S=a(270),A=a(34),y=a(8),I=a(19),w=a(45),P=a(20),x=a(127),B=a(23),F=a(128),q=a(35),T=a(44),V=a(216),W=a(56),D=a(84),E=a(38),L=a(217),M=a(21),Y=a(4),H=a(9),J=a(25),N=a(11),O=a(85),R=t.Y({encapsulation:2,styles:[],data:{}}),X=t.W("page-camera",s,function(n){return t._22(0,[(n()(),t._0(0,0,null,null,1,"page-camera",[],null,null,null,u,R)),t.Z(1,49152,null,0,s,[I.a,N.a,o.a,O.a,e.a,i.a,r.a,E.c],null,null)],null,null)},{},{},[]),z=a(13),G=a(18),K=a(82),Q=a(129),U=a(37);a.d(l,"CameraPageModuleNgFactory",function(){return $});var $=t.X(_,[],function(n){return t._11([t._12(512,t.i,t.T,[[8,[b.a,d.a,g.a,h.a,m.a,f.a,p.a,k.a,v.a,X]],[3,t.i],t.t]),t._12(4608,z.k,z.j,[t.s,[2,z.s]]),t._12(4608,G.k,G.k,[]),t._12(4608,G.c,G.c,[]),t._12(4608,K.c,K.c,[]),t._12(4608,K.g,K.b,[]),t._12(5120,K.i,K.j,[]),t._12(4608,K.h,K.h,[K.c,K.g,K.i]),t._12(4608,K.f,K.a,[]),t._12(5120,K.d,K.k,[K.h,K.f]),t._12(512,z.b,z.b,[]),t._12(512,G.j,G.j,[]),t._12(512,G.d,G.d,[]),t._12(512,G.i,G.i,[]),t._12(512,Q.a,Q.a,[]),t._12(512,Q.b,Q.b,[]),t._12(512,K.e,K.e,[]),t._12(512,c.a,c.a,[]),t._12(512,_,_,[]),t._12(256,U.a,s,[])])})},270:function(n,l,a){"use strict";function u(n){return t._22(0,[(n()(),t._0(0,0,null,null,1,"div",[["class","toolbar-background"]],null,null,null,null,null)),t.Z(1,278528,null,0,o.g,[t.q,t.r,t.j,t.B],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(n()(),t._0(2,0,null,null,8,"button",[["class","back-button"],["ion-button","bar-button"]],[[8,"hidden",0]],[[null,"click"]],function(n,l,a){var u=!0;if("click"===l){u=!1!==n.component.backButtonClick(a)&&u}return u},e.b,e.a)),t.Z(3,278528,null,0,o.g,[t.q,t.r,t.j,t.B],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),t.Z(4,1097728,null,0,i.a,[[8,"bar-button"],r.a,t.j,t.A],null,null),(n()(),t._0(5,0,null,0,2,"ion-icon",[["class","back-button-icon"],["role","img"]],[[2,"hide",null]],null,null,null,null)),t.Z(6,278528,null,0,o.g,[t.q,t.r,t.j,t.B],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),t.Z(7,147456,null,0,c.a,[r.a,t.j,t.A],{name:[0,"name"]},null),(n()(),t._0(8,0,null,0,2,"span",[["class","back-button-text"]],null,null,null,null,null)),t.Z(9,278528,null,0,o.g,[t.q,t.r,t.j,t.B],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(n()(),t._20(10,null,["",""])),t._13(null,0),t._13(null,1),t._13(null,2),(n()(),t._0(14,0,null,null,2,"div",[["class","toolbar-content"]],null,null,null,null,null)),t.Z(15,278528,null,0,o.g,[t.q,t.r,t.j,t.B],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),t._13(null,3)],function(n,l){var a=l.component;n(l,1,0,"toolbar-background","toolbar-background-"+a._mode);n(l,3,0,"back-button","back-button-"+a._mode);n(l,6,0,"back-button-icon","back-button-icon-"+a._mode);n(l,7,0,a._bbIcon);n(l,9,0,"back-button-text","back-button-text-"+a._mode);n(l,15,0,"toolbar-content","toolbar-content-"+a._mode)},function(n,l){var a=l.component;n(l,2,0,a._hideBb);n(l,5,0,t._14(l,7)._hidden);n(l,10,0,a._backText)})}a.d(l,"a",function(){return s}),l.b=u;var t=a(0),o=a(13),e=a(45),i=a(20),r=a(1),c=a(44),s=(a(5),a(19),t.Y({encapsulation:2,styles:[],data:{}}))}});
+webpackJsonp([2],{
+
+/***/ 310:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ConfigPageModule", function() { return ConfigPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config__ = __webpack_require__(315);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ng2_translate__ = __webpack_require__(106);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+var ConfigPageModule = (function () {
+    function ConfigPageModule() {
+    }
+    ConfigPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__config__["a" /* ConfigPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__config__["a" /* ConfigPage */]), __WEBPACK_IMPORTED_MODULE_3_ng2_translate__["b" /* TranslateModule */]
+            ],
+        })
+    ], ConfigPageModule);
+    return ConfigPageModule;
+}());
+
+//# sourceMappingURL=config.module.js.map
+
+/***/ }),
+
+/***/ 315:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ConfigPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ng2_translate__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__componentesIonic_toast__ = __webpack_require__(214);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var ConfigPage = (function () {
+    function ConfigPage(navCtrl, navParams, translate, toast) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.translate = translate;
+        this.toast = toast;
+        this.PORTUGUESE = 'pt';
+        this.ENGLISH = 'en';
+        this.SPANISH = 'es';
+    }
+    ConfigPage.prototype.ionViewDidLoad = function () {
+        var language = localStorage.getItem("language");
+        if (language)
+            this.languageSelected = language;
+        else
+            this.languageSelected = "pt";
+    };
+    ConfigPage.prototype.updateLanguage = function () {
+        var _this = this;
+        if (this.languageSelected == this.PORTUGUESE) {
+            localStorage.setItem('language', "pt");
+            this.translate.use('pt');
+        }
+        else if (this.languageSelected == this.ENGLISH) {
+            localStorage.setItem('language', "en");
+            this.translate.use('en');
+        }
+        else if (this.languageSelected == this.SPANISH) {
+            localStorage.setItem('language', "es");
+            this.translate.use('es');
+        }
+        this.translate.get("linguagemAtualizada").subscribe(function (msg) {
+            _this.toast.showToast(msg, __WEBPACK_IMPORTED_MODULE_3__componentesIonic_toast__["a" /* Toast */].BOTTOM, 3000);
+        });
+    };
+    ConfigPage.prototype.ionViewDidLeave = function () {
+        var language = localStorage.getItem("language");
+        if (language)
+            this.translate.use(language);
+        else
+            this.translate.use('pt');
+    };
+    ConfigPage.prototype.selectLanguage = function (language) {
+        this.translate.use(language);
+    };
+    ConfigPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-config',template:/*ion-inline-start:"/home/hebert/Aplicativos/ionic-demo/src/pages/config/config.html"*/'<ion-header>\n  <ion-navbar color="primary">\n    <button ion-button menuToggle icon-only>\n      <ion-icon name=\'menu\'></ion-icon>\n    </button>\n    <ion-title>\n      {{\'configuracao\' | translate}}\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n  <ion-list [(ngModel)]="languageSelected" radio-group>\n    <ion-list-header no-lines>\n      {{\'linguagem\' | translate}}\n      <!--   {{\'linguagem\': translate}} -->\n    </ion-list-header>\n\n    <ion-item no-lines>\n      <ion-label>{{\'portugues\' | translate }}</ion-label>\n      <ion-radio (tap)="selectLanguage(\'pt\')" value="pt"></ion-radio>\n    </ion-item>\n\n    <ion-item no-lines>\n      <ion-label>{{\'ingles\' | translate }}</ion-label>\n      <ion-radio (tap)="selectLanguage(\'en\')" value="en"></ion-radio>\n    </ion-item>\n\n    <ion-item no-lines>\n      <ion-label>{{\'espanhol\' | translate }}</ion-label>\n      <ion-radio (tap)="selectLanguage(\'es\')" value="es"></ion-radio>\n    </ion-item>\n\n  </ion-list>\n\n  <button (tap)="updateLanguage()" ion-button block class="botao">{{\'trocarIdioma\' | translate }}</button>\n</ion-content>'/*ion-inline-end:"/home/hebert/Aplicativos/ionic-demo/src/pages/config/config.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_2_ng2_translate__["c" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_3__componentesIonic_toast__["a" /* Toast */]])
+    ], ConfigPage);
+    return ConfigPage;
+}());
+
+//# sourceMappingURL=config.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=2.js.map

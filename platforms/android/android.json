@@ -35,6 +35,10 @@
             {
               "xml": "<feature name=\"SocialSharing\"><param name=\"android-package\" value=\"nl.xservices.plugins.SocialSharing\" /></feature>",
               "count": 1
+            },
+            {
+              "xml": "<feature name=\"SQLitePlugin\"><param name=\"android-package\" value=\"io.sqlc.SQLitePlugin\" /></feature>",
+              "count": 1
             }
           ]
         }
@@ -111,6 +115,12 @@
       "PACKAGE_NAME": "br.com.ionicDemo"
     },
     "cordova-plugin-vibration": {
+      "PACKAGE_NAME": "br.com.ionicDemo"
+    },
+    "cordova-sqlite-storage": {
+      "PACKAGE_NAME": "br.com.ionicDemo"
+    },
+    "uk.co.workingedge.cordova.plugin.sqliteporter": {
       "PACKAGE_NAME": "br.com.ionicDemo"
     }
   },
@@ -201,6 +211,22 @@
       "clobbers": [
         "window.plugins.socialsharing"
       ]
+    },
+    {
+      "id": "cordova-sqlite-storage.SQLitePlugin",
+      "file": "plugins/cordova-sqlite-storage/www/SQLitePlugin.js",
+      "pluginId": "cordova-sqlite-storage",
+      "clobbers": [
+        "SQLitePlugin"
+      ]
+    },
+    {
+      "id": "uk.co.workingedge.cordova.plugin.sqliteporter.sqlitePorter",
+      "file": "plugins/uk.co.workingedge.cordova.plugin.sqliteporter/www/sqlitePorter.js",
+      "pluginId": "uk.co.workingedge.cordova.plugin.sqliteporter",
+      "clobbers": [
+        "cordova.plugins.sqlitePorter"
+      ]
     }
   ],
   "plugin_metadata": {
@@ -214,6 +240,8 @@
     "cordova-plugin-camera": "4.0.2",
     "es6-promise-plugin": "4.1.0",
     "cordova-plugin-x-socialsharing": "5.2.1",
-    "cordova-plugin-vibration": "3.0.1"
+    "cordova-plugin-vibration": "3.0.1",
+    "cordova-sqlite-storage": "2.3.0",
+    "uk.co.workingedge.cordova.plugin.sqliteporter": "1.0.2"
   }
 }

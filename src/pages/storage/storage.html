@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <button ion-button menuToggle icon-only>
+      <ion-icon name='menu'></ion-icon>
+    </button>
+    <ion-title>
+      {{'bancoDeDados' | translate}}
+    </ion-title>
+
+    <ion-buttons end>
+      <button (tap)="showInfo()" ion-button icon-only>
+        <ion-icon name="md-information-circle"></ion-icon>
+      </button>
+    </ion-buttons>
+
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list>
+    <ion-item>
+      <ion-label color="primary">{{'categoria' | translate}}</ion-label>
+      <ion-select interface="popover">
+        <ion-option *ngFor="let category of categoryList" [value]="category.$id">{{category.$name}}</ion-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+
+
+  <ion-item *ngIf="createNewCategoryEnabled" class="w3-container w3-animate-opacity w3-animate-right">
+    <ion-label floating>Teste</ion-label>
+    <ion-input [(ngModel)]="categoryName" type="text" color="primary"></ion-input>
+  </ion-item>
+
+
+  <button [disabled]="createNewCategoryEnabled && categoryName.length < 1" ion-button class="botao" (tap)="createNewCategoryItem()" block color="primary">{{ typeButtonCategory | translate}}</button>
+
+
+</ion-content>

@@ -16,6 +16,9 @@ import { SocialSharingService } from '../services/socialSharing';
 import { SocialSharing } from '@ionic-native/social-sharing';
 import { TranslateModule, TranslateLoader, TranslateStaticLoader } from 'ng2-translate';
 import { Http } from '@angular/http';
+import { BD } from '../persistence/bd';
+import { BDUtil } from '../persistence/bdUtil';
+import { CategoryDao } from '../dao/categoryDao';
 
 export function createTranslateLoader(http: Http) {
   return new TranslateStaticLoader(http, './assets/i18n', '.json');
@@ -43,7 +46,8 @@ export function createTranslateLoader(http: Http) {
     StatusBar,
     SplashScreen,
     { provide: ErrorHandler, useClass: IonicErrorHandler }, SocialSharing,
-    Toast, Loading, Alertas, HeaderColor, NativeCamera, Camera, SocialSharingService, Vibration
+    Toast, Loading, Alertas, HeaderColor, NativeCamera, Camera, SocialSharingService,
+    Vibration, BD, BDUtil, CategoryDao
   ]
 })
 export class AppModule { }

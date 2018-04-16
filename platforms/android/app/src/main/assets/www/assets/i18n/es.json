@@ -7,8 +7,11 @@
     "salvar": "Guardar",
     "botoes": "Botones",
     "camera": "Cámara",
-    "trocarIdioma" : "Actualizar el idioma",
+    "trocarIdioma": "Actualizar el idioma",
     "tirarFoto": "Sacar una foto",
     "cameraInfo": "Después de tomar la foto, presione la imagen durante unos segundos para abrir un menú de acción. Usted podrá compartir la fotografía vía Facebook, Instagram y WhatsApp",
-    "linguagemAtualizada" : "El idioma ha sido actualizado con éxito"
+    "linguagemAtualizada": "El idioma ha sido actualizado con éxito",
+    "bancoDeDados": "Banco de datos",
+    "categoria": "Categoría",
+    "criarCategoria": "Crear nueva categoría"
 }

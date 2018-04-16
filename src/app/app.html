@@ -5,7 +5,7 @@
         </ion-toolbar>
     </ion-header>
     <ion-content>
-        <ion-list>
+        <ion-list no-lines>
 
             <button ion-item menuClose clear (tap)="openPage('LoadingPage')">
                 <div item-left style="width:10px; float:left"> </div>
@@ -20,6 +20,11 @@
             <button ion-item menuClose clear (tap)="openPage('CameraPage')">
                 <div item-left style="width:10px; float:left"> </div>
                 <img style="float:left" width="23" height="23" src="assets/svg/camera.svg" item-left/> {{'camera' | translate}}
+            </button>
+
+            <button ion-item menuClose clear (tap)="openPage('StoragePage')">
+                <div item-left style="width:10px; float:left"> </div>
+                <img style="float:left" width="23" height="23" src="assets/svg/database.svg" item-left/> {{'bancoDeDados' | translate}}
             </button>
 
             <button ion-item menuClose clear (tap)="openPage('ConfigPage')">

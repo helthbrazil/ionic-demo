@@ -4,6 +4,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { HeaderColor } from '@ionic-native/header-color';
 import { TranslateService } from 'ng2-translate';
+import { BDUtil } from '../persistence/bdUtil';
 
 @Component({
   templateUrl: 'app.html'
@@ -12,7 +13,8 @@ export class MyApp {
   rootPage: string = 'LoadingPage';
 
   constructor(platform: Platform, public statusBar: StatusBar, splashScreen: SplashScreen,
-    private headerColor: HeaderColor, private translate: TranslateService) {
+    private headerColor: HeaderColor, private translate: TranslateService,
+    private bdUtil: BDUtil) {
     platform.ready().then(() => {
       let language: string = localStorage.getItem('language');
       if (language) {
@@ -33,7 +35,15 @@ export class MyApp {
       splashScreen.hide();
 
       this.headerColor.tint('#008B8B');
+
+      this.createTableDemo();
     });
+  }
+
+  createTableDemo() {
+    setTimeout(() => {
+      this.bdUtil.createTables();
+    }, 100);
   }
 
   openPage(page: string) {

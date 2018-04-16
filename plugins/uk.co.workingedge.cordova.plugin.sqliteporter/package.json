@@ -1,0 +1,109 @@
+{
+  "_args": [
+    [
+      "uk.co.workingedge.cordova.plugin.sqliteporter",
+      "/home/hebert/Aplicativos/ionic-demo"
+    ]
+  ],
+  "_from": "uk.co.workingedge.cordova.plugin.sqliteporter@latest",
+  "_id": "uk.co.workingedge.cordova.plugin.sqliteporter@1.0.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/uk.co.workingedge.cordova.plugin.sqliteporter",
+  "_nodeVersion": "7.10.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/uk.co.workingedge.cordova.plugin.sqliteporter-1.0.2.tgz_1509369573386_0.9972834440413862"
+  },
+  "_npmUser": {
+    "email": "dave@workingedge.co.uk",
+    "name": "davealden"
+  },
+  "_npmVersion": "4.2.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "uk.co.workingedge.cordova.plugin.sqliteporter",
+    "raw": "uk.co.workingedge.cordova.plugin.sqliteporter",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/uk.co.workingedge.cordova.plugin.sqliteporter/-/uk.co.workingedge.cordova.plugin.sqliteporter-1.0.2.tgz",
+  "_shasum": "3e2c2df0caafc257091f528b57e2327e467d7fee",
+  "_shrinkwrap": null,
+  "_spec": "uk.co.workingedge.cordova.plugin.sqliteporter",
+  "_where": "/home/hebert/Aplicativos/ionic-demo",
+  "author": {
+    "name": "Dave Alden"
+  },
+  "bugs": {
+    "url": "https://github.com/dpa99c/cordova-sqlite-porter/issues"
+  },
+  "cordova": {
+    "id": "uk.co.workingedge.cordova.plugin.sqliteporter",
+    "platforms": [
+      "amazon-fireos",
+      "android",
+      "blackberry10",
+      "browser",
+      "ios",
+      "tizen",
+      "windows",
+      "windows8",
+      "wp7",
+      "wp8"
+    ]
+  },
+  "cordova_name": "sqlite porter",
+  "dependencies": {},
+  "description": "Enables importing/exporting of SQLite databases to/from JSON/SQL.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "3e2c2df0caafc257091f528b57e2327e467d7fee",
+    "tarball": "https://registry.npmjs.org/uk.co.workingedge.cordova.plugin.sqliteporter/-/uk.co.workingedge.cordova.plugin.sqliteporter-1.0.2.tgz"
+  },
+  "gitHead": "921a1387124d49e09174122319335f4ac459233e",
+  "homepage": "https://github.com/dpa99c/cordova-sqlite-porter#readme",
+  "issue": "https://github.com/dpa99c/cordova-sqlite-porter/issues",
+  "keywords": [
+    "android",
+    "blackberry",
+    "browser",
+    "cordova",
+    "database",
+    "ecosystem:cordova",
+    "export",
+    "fireos",
+    "import",
+    "ios",
+    "phonegap",
+    "sqlite",
+    "tizen",
+    "websql",
+    "windows",
+    "windows 8",
+    "windows phone 8",
+    "wp7"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "davealden",
+      "email": "dave@workingedge.co.uk"
+    }
+  ],
+  "name": "uk.co.workingedge.cordova.plugin.sqliteporter",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpa99c/cordova-sqlite-porter.git"
+  },
+  "scripts": {},
+  "version": "1.0.2"
+}

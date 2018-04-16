@@ -36,6 +36,12 @@
     },
     "cordova-plugin-vibration": {
       "PACKAGE_NAME": "br.com.ionicDemo"
+    },
+    "cordova-sqlite-storage": {
+      "PACKAGE_NAME": "br.com.ionicDemo"
+    },
+    "uk.co.workingedge.cordova.plugin.sqliteporter": {
+      "PACKAGE_NAME": "br.com.ionicDemo"
     }
   },
   "dependent_plugins": {
